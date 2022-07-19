@@ -29,7 +29,9 @@ export default function Home() {
             <p className="text-white text-center font-semibold text-lg">
               Connecting professionals worldwide working in the <br></br> crypto credit industry.
             </p>
-            <a href="/about" rel="noreferrer"><p className="flex text-white font-semibold pt-6">Find out more<img
+            <a href="/about" rel="noreferrer"><p className="flex text-white font-semibold pt-6">Find out more
+            <img
+              src="/images/arrow-white.svg"
               className="ml-2 text-white"
               alt="Download icon"
             /></p></a>

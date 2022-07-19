@@ -14,9 +14,9 @@ function Navbar({ fixed }) {
             <nav className="bg-gray md:py-6 relative flex flex-wrap lg:flex-nowrap items-center justify-between px-2 py-3 m-auto">
                 <div className="max-w-7xl m-auto container flex flex-wrap lg:flex-nowrap items-center justify-between">
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-                        <div>
+                        <div className="lg:hidden w-36 mt-3 mr-12">
                             <Link href="/">
-                                <img className="lg:hidden w-36 mt-3 mr-12" alt="Logo" />
+                                <img src="/images/crypto-credit-logo.png" alt="Logo" width={224} />
                             </Link>
                         </div>
                         <button

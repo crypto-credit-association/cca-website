@@ -4,17 +4,17 @@ export const Footer = () => {
     return (
         <>
         <div className="grid md:grid-cols-3 bg-white block pt-8 md:justify-items-center">
-             <img className="block m-auto w-52" src="{logo}" alt="Logo" />
+             <img className="block m-auto w-52" src="/images/crypto-credit-logo.png" width={224} alt="Logo" />
              <div className="block m-auto flex-1 py-8 md:pt-0 text-gray-900 text-lg">
             <div className="flex items-center space-x-4 md:pt-10">
             <a href="https://twitter.com/cc_assoc" target="_blank" rel="noreferrer"><img
                 className="ml-2 text-white"
-                src="{Twitter}"
+                src="/svg/twitter.svg"
                 alt="Twitter icon"
               /></a>
                <a href="mailto:george@credmark.com" rel="noreferrer"><img
                 className="ml-2 text-white"
-                src="{Mail}"
+                src="/svg/mail.svg"
                 alt="Email icon"
               /></a>
             </div>
