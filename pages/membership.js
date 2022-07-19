@@ -1,6 +1,10 @@
+import Navbar from "../src/components/layout/nav";
+import Footer from "../src/components/layout/footer";
+
 function Membership() {
   return (
     <>
+      <Navbar />
       <div className="bg-blue-dark">
         <div className="flex flex-col w-full max-w-6xl m-auto">
           <h1 className="text-white font-bold md:pl-24 py-40 text-center md:text-left">
@@ -77,6 +81,7 @@ function Membership() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

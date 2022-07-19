@@ -1,6 +1,10 @@
+import Navbar from "../src/components/layout/nav";
+import Footer from "../src/components/layout/footer";
+
 function Audits() {
     return (
         <>
+        <Navbar />
             <div className="bg-blue-dark">
                 <div className="flex flex-col w-full py-32 max-w-7xl m-auto">
                     <h1 className="text-white text-center text-6xl font-bold">
@@ -19,6 +23,7 @@ function Audits() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }
