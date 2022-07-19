@@ -1,5 +1,7 @@
 import Navbar from "../src/components/layout/nav";
 import Footer from "../src/components/layout/footer";
+import BoardMembers from "../src/components/members/boardMembers";
+import GetinTouch from "../src/components/layout/getInTouch";
 
 function About() {
     return (
@@ -13,7 +15,7 @@ function About() {
                 </div>
             </div>
             <div className="max-w-7xl m-auto">
-                <img className="w-96 justify-center hidden md:flex ml-auto md:mr-12 lg:mr-20 z-10 -mt-20 md:-mt-40 pointer-events-none" alt="color tiles" />
+                <img className="w-96 justify-center hidden md:flex ml-auto md:mr-12 lg:mr-20 z-10 -mt-20 md:-mt-40 pointer-events-none" src="/images/coloured-tiles.png" alt="color tiles" />
             </div>
             <div className="bg-gray md:-mt-40">
                 <div className="max-w-7xl m-auto">
@@ -55,7 +57,35 @@ function About() {
                             <h3 className="pb-6 text-3xl font-bold">Executive Directors</h3>
                             <div class="border-b-2 border-gold w-64 mb-10"></div>
                             <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
+                            <BoardMembers
+                                    img="/images/george.png"
+                                    name="George Maddox"
+                                    title="Executive Director"
+                                    bio=" George is a bilingual 20-year resident of Tokyo, who launched his Financial Services career as Controller at Credit Suisse, UBS and Merrill Lynch, following a successful foray in marketing & advertising for Formula 1 Racing's Benetton Team." />
                             </div>
+                                    <h3 className="pb-6 text-3xl font-bold pt-12">Board Members</h3>
+                                    <div class="border-b-2 border-gold w-64 mb-12"></div>
+                            
+                            <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
+                                <BoardMembers
+                                    img="/images/paul-murphy.png"
+                                    name="Paul Murphy"
+                                    title="Board Member"
+                                    bio=" Born in Argentina, Paul has lived and worked all over the world. He used to write a lot of code. Now he’s kind of rusty. He does whatever needs doing, whether or not it’s fun."
+                                    bioTwo="He believes the answer to most questions can be found in musical and opera scores." />
+                                <BoardMembers
+                                    img="/images/serge-ugarte.png"
+                                    name="Serge Ugarte"
+                                    title="Board Member"
+                                    bio="Serge has a background in strategy and business development. Having held senior positions at Cisco, Accenture, and having founded his own research & management consulting, Serge has kean leadership skills. Currently, he specialises in disruptive architectures, such as blockchain, machine learning, and AI." />
+                                <BoardMembers
+                                    img="/images/darshain.png"
+                                    name="Darshan Vaidya"
+                                    title="Board Member"
+                                    bio="Darshan is the founder of X-Margin, a Zero-Knowledge Cross Margin Solution for trading firms. His experience ranges from options trading in Cryptocurrency and strong programming skills."
+                                    bioTwo="He is also the Founder of Well Fed Foundation - a food redistribution charity using technology." />
+                            </div>
+                            <GetinTouch />
                         </div>
                     </div>
                 </div>
