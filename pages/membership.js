@@ -1,5 +1,6 @@
 import Navbar from "../src/components/layout/nav";
 import Footer from "../src/components/layout/footer";
+import GetinTouch from "../src/components/layout/getInTouch";
 
 function Membership() {
   return (
@@ -20,24 +21,28 @@ function Membership() {
               <div className="border-l-2 border-gold pr-6 pt-6">
                 <img
                   className="ml-6 w-8"
+                  src="/svg/blue-tick.svg"
                   alt="Tick icon"
                 /><p className="ml-6 pb-6 text-base mt-2">Regulatory thought leadership<br></br> and good practice</p>
               </div>
               <div className="border-l-2 border-gold pr-6 pt-6">
                 <img
                   className="ml-6 w-8"
+                  src="/svg/blue-tick.svg"
                   alt="Tick icon"
                 /><p className="ml-6 pb-6 text-base mt-2">Networking and collaboration</p>
               </div>
               <div className="border-l-2 border-gold pr-6 pt-6">
                 <img
                   className="ml-6 w-8"
+                  src="/svg/blue-tick.svg"
                   alt="Tick icon"
                 /><p className="ml-6 pb-6 text-base mt-2">Access to certification<br></br> and licensing programs</p>
               </div>
               <div className="border-l-2 border-gold pr-6 pt-6">
                 <img
                   className="ml-6 w-8"
+                  src="/svg/blue-tick.svg"
                   alt="Tick icon"
                 /><p className="ml-6 pb-6 text-base mt-2">Connect With (or Be) a Mentor</p>
               </div>
@@ -78,6 +83,8 @@ function Membership() {
             <p>Ordinary Members will be required to pay an annual fee in order to cover the costs of running the Consortium.</p>
             <br></br>
             <p>Two tiers of membership fees will be charged: Established and Startup. Both will afford members identical rights. Companies will be eligible to pay the Startup fee if they are less than 5 years old. </p>
+            <GetinTouch />
+
           </div>
         </div>
       </div>
