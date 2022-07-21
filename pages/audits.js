@@ -10,7 +10,7 @@ function Audits() {
                     <h1 className="text-white text-center text-6xl font-bold">
                         Audits
                     </h1>
-                    <div class="border-b-2 border-gold w-56 m-auto mt-5"></div>
+                    <div className="border-b-2 border-gold w-56 m-auto mt-5"></div>
                 </div>
             </div>
             <div className="bg-gray">
