@@ -170,6 +170,7 @@ li{
 .gridIndividual {
   padding-bottom: 10px;
   padding-top: 20px;
+  cursor: pointer;
 }
 
 @media (max-width: 1023px) { 
