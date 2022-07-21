@@ -27,15 +27,15 @@ export default function Test(props) {
                                                     alt="Crypto Credit logo"
                                                 />
                                             </Link>
-                                            <div className="navItems mx-10 border-transparent inline-flex items-center text-sm font-medium">
+                                            <div className="navItems border-transparent inline-flex items-center text-sm font-medium">
                                                 <Link
                                                     href="/"
                                                 >
                                                     <img
-                                                        width={150}
-                                                        className="cursor-pointer h-14 mt-2 pl-5 w-40"
+                                                        width={200}
+                                                        className="ccaLogo"
                                                         src="/images/crypto-credit-logo.png"
-                                                        alt="Picante logo"
+                                                        alt="CCA logo"
                                                     />
                                                 </Link>
                                             </div>
@@ -44,7 +44,7 @@ export default function Test(props) {
                                     <div className="sm:ml-8 md:ml-0 sm:items-center">
 
                                         {/* Profile dropdown */}
-                                        <Menu as="div" className="navItemsDesktop ml-3 relative">
+                                        <Menu as="div" className="navItemsDesktop mx-10 relative">
                                             <div>
                                                 <Menu.Button>
                                                     <div className="navItems mx-10 border-transparent inline-flex items-center text-sm font-medium">
@@ -85,31 +85,17 @@ export default function Test(props) {
                                             </div>
                                         </Menu>
                                     </div>
-                                    <div className="hidden flex-wrap">
-                                        <button
-                                            type="button"
-                                        >
-                                            <p className="font-semibold text-orange text-sm">Log in</p>
-                                        </button>
-                                        <Link
-                                            href="/careers"
-                                        >
-                                            <span className="btnNav border-transparent text-white text-xs bg-orange hover:cursor-pointer">
-                                                Sign up
-                                            </span>
-                                        </Link>
-                                    </div>
                                     <div className="-mr-2 flex items-center">
                                         {/* Mobile menu button */}
                                         <Disclosure.Button className="navbarBurger inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100">
-                                            <span className="sr-only">Open main menu</span>
+                                            <span className="sr-only text-white">Open main menu</span>
                                             {open ? (
                                                 <img className="block h-6 w-6" aria-hidden="true"
-                                                    src="/assets/svg/close-x-red.svg"
+                                                    src="/svg/close-x-red.svg"
                                                     alt="Close icon"
-                                                    width={30} />
+                                                    width={15} />
                                             ) : (
-                                                <MenuIcon className="block h-6 w-6" aria-hidden="true" />
+                                                <MenuIcon width={30} className="block h-6 w-6" aria-hidden="true" />
                                             )}
                                         </Disclosure.Button>
                                     </div>
@@ -131,63 +117,36 @@ export default function Test(props) {
 
                             <Disclosure.Panel className="lg:hidden pl-2">
                                 <div className="pt-2 pb-3 space-y-1">
-                                    <p className="border-transparent block pl-3 pr-4 border-l-4 text-base font-bold uppercase py-5"
-                                    > Main </p>
                                     <Disclosure.Button
                                         as="a"
-                                        href="/"
-                                        className="border-transparent block pl-3 pr-4 py-1 border-l-4 text-base font-medium"
+                                        href="/about"
+                                        className="flex justify-center navItems"
                                     >
-                                        Home
+                                        About the CCA
                                     </Disclosure.Button>
                                 </div>
                                 <div className="pt-2 pb-3 space-y-1">
-                                    <Link href="/about">
-                                        <span className="border-transparent block pl-3 pr-4 py-1 border-l-4 text-base font-medium">About</span>
+                                    <Link href="/membership">
+                                        <span className="flex justify-center navItems">Membership</span>
                                     </Link>
                                 </div>
                                 <div className="pt-2 pb-3 space-y-1">
                                     <Disclosure.Button
                                         as="a"
-                                        href="/careers"
-                                        className="border-transparent block pl-3 pr-4 py-1 border-l-4 text-base font-medium"
+                                        href="/mission"
+                                        className="flex justify-center navItems"
                                     >
-                                        Careers
-                                    </Disclosure.Button>
-                                </div>
-                                <div className="pt-2 pb-3 space-y-1 hidden">
-                                    <Disclosure.Button
-                                        as="a"
-                                        href="/lite-paper"
-                                        className="border-transparent block pl-3 pr-4 py-1 border-l-4 text-base font-medium"
-                                    >
-                                        Lite Paper
+                                        Mission
                                     </Disclosure.Button>
                                 </div>
                                 <div className="pt-2 pb-3 space-y-1">
                                     <Disclosure.Button
                                         as="a"
-                                        href="/contact"
-                                        className="border-transparent block pl-3 pr-4 py-1 border-l-4 text-base font-medium"
+                                        href="/reports"
+                                        className="flex justify-center navItems"
                                     >
-                                        Contact
+                                        Crypto Credit Report
                                     </Disclosure.Button>
-                                </div>
-                                <div className="hidden">
-                                    <button
-                                        type="button"
-                                    >
-                                        <p className="font-semibold text-orange text-base pl-4 py-1">Log in</p>
-                                    </button>
-                                </div>
-                                <div className="mt-5">
-                                    <Link
-                                        href="/careers"
-                                    >
-                                        <span className="ml-4 px-4 py-2 rounded-md border-transparent text-white text-base bg-orange hover:cursor-pointer">
-                                            Sign up
-                                        </span>
-                                    </Link>
                                 </div>
                                 <div className="pt-4 pb-3">
                                     <div className="flex items-center">

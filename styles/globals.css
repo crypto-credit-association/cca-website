@@ -118,6 +118,10 @@ li{
   padding-top: 10px;
 }
 
+.ccaLogo {
+  cursor: pointer;
+}
+
 @media (min-width: 1024px) { 
   .nav{
     flex-wrap: nowrap;
@@ -128,6 +132,9 @@ li{
   .navItemsDesktop {
     display: flex;
   }
+  .ctaButton {
+    display: flex;
+  }
   .navbarBurger {
     display: none;
   }
@@ -135,6 +142,9 @@ li{
 
 @media (max-width: 1023px) { 
   .navItemsDesktop {
+  display: none;
+}
+.ctaButton {
   display: none;
 }
 .navbarBurger {
