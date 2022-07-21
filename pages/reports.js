@@ -22,7 +22,7 @@ function Reports() {
                                 <br></br>
                                 Every issue includes Credmark proprietary market data, as well as our expert analysis on trends in lending, DeFi, and adoption of Cryptocurrencies. Find all the reports below: </p>
                         </div>
-                        <div class="border-b-2 border-gold w-48 md:w-72 block m-auto py-12"></div>
+                        <div className="border-b-2 border-gold w-48 md:w-72 block m-auto py-12"></div>
                     </div>
                     <div className="mx-10 pt-10 md:mx-0">
                         <h3 className="pb-6 text-3xl font-bold underline">2020</h3>
