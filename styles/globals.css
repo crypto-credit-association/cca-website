@@ -43,12 +43,6 @@ li{
   font-family: 'Chivo';
 }
 
-
-nav{
-  @apply font-bold text-blue-dark;
-  font-family: 'Chivo';
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -94,5 +88,82 @@ nav{
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Nav */
+
+.ctaButton {
+  background-color: #5E7591;
+  border-radius: 5px;
+  padding: 7px;
+  margin-right: 40px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  background-color: #E8E9EA;
+}
+
+.navItems {
+  font-family: 'Chivo';
+  color: #5E7591;
+  font-weight: 500;
+  display: flex;
+  padding-top: 10px;
+}
+
+@media (min-width: 1024px) { 
+  .nav{
+    flex-wrap: nowrap;
+  }
+  .hamburgerMenu {
+    display: hidden;
+  }
+  .navItemsDesktop {
+    display: flex;
+  }
+  .navbarBurger {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) { 
+  .navItemsDesktop {
+  display: none;
+}
+.navbarBurger {
+  display: flex;
+}
+}
+
+/** Footer **/
+
+.footerTop {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.footerBottom {
+  padding-bottom: 30px;
+}
+
+.gridLeft {
+  padding-right: 30px;
+}
+
+.gridIndividual {
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+@media (max-width: 1023px) { 
+  .gridIndividual {
+    text-align: center;
   }
 }

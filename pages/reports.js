@@ -1,11 +1,11 @@
 import GetinTouch from "../src/components/layout/getInTouch";
-import Navbar from "../src/components/layout/nav";
+import Nav from "../src/components/mission/nav";
 import Footer from "../src/components/layout/footer";
 
 function Reports() {
     return (
         <>
-        <Navbar />
+        <Nav />
             <div className="bg-blue-dark">
                 <div className="flex flex-col py-40 max-w-7xl m-auto" style={{ background: `url('/images/blue-bg.png')`, backgroundPosition: 'center top', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', maxWidth: '1500px', margin: 'auto', }}>
                     <h1 className="text-white text-center font-bold md:pl-24 text-center md:text-left">
