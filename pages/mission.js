@@ -46,7 +46,7 @@ function Mission() {
                         </div>
                         <div>
                             <h3 className="pt-12 pb-6 text-3xl font-bold">Audit</h3>
-                            <div class="border-b-2 border-gold w-56"></div>
+                            <div className="border-b-2 border-gold w-56"></div>
                             <p className="py-6">Certain processes defined by the CCA will require third-party audit and certification services.The CCA will publish references to companies capable of providing these services.</p>
                             <Link href="/audits" rel="noreferrer"><p className="flex font-semibold">Find out more<img
                                 className="ml-2"
