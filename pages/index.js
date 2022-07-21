@@ -48,12 +48,12 @@ export default function Home() {
             <p className="px-5 text-white text-center font-semibold text-lg">
               Connecting professionals worldwide working in the <br></br> crypto credit industry.
             </p>
-            <a href="/about" rel="noreferrer"><p className="flex text-white font-semibold pt-6">Find out more
+            <Link href="/about" rel="noreferrer"><p className="flex text-white font-semibold pt-6">Find out more
             <img
+              src="/svg/arrow-white.svg"
               className="ml-2 text-white"
-              src="/images/arrow-white.svg"
               alt="Download icon"
-            /></p></a>
+            /></p></Link>
           </div>
         </div>
         <Footer />

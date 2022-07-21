@@ -1,6 +1,7 @@
 import Stats from "../src/components/mission/stats";
 import Nav from "../src/components/mission/nav";
 import Footer from "../src/components/layout/footer";
+import Link from 'next/link'
 
 function Mission() {
     return (
@@ -20,7 +21,7 @@ function Mission() {
                 <div className="max-w-7xl m-auto px-12 py-12">
                     <div className="md:mx-12">
                         <h3 className="pb-6 text-3xl font-bold">Our Vision</h3>
-                        <div class="border-b-2 border-gold w-48"></div>
+                        <div className="border-b-2 border-gold w-48"></div>
                         <ul className="ml-5 md:ml-0 py-6 list-outside list-disc">
                             <li>Define and publish standards.</li>
                             <li>Establish audit and certification mechanisms for companies in the crypto credit space.</li>
@@ -30,7 +31,7 @@ function Mission() {
                     <div className="grid grid-cols-1 md:grid-cols-3">
                         <div className="md:mx-12">
                             <h3 className="pt-12 pb-6 text-3xl font-bold">Standards</h3>
-                            <div class="border-b-2 border-gold w-56"></div>
+                            <div className="border-b-2 border-gold w-56"></div>
                             <p className="py-6">CCA sub-committees will work with Members to define standards in three key  areas as data and the market value/need differ significantly:</p>
                             <ul className="list-inside list-disc">
                                 <li>consumer credit</li>
@@ -47,22 +48,22 @@ function Mission() {
                             <h3 className="pt-12 pb-6 text-3xl font-bold">Audit</h3>
                             <div class="border-b-2 border-gold w-56"></div>
                             <p className="py-6">Certain processes defined by the CCA will require third-party audit and certification services.The CCA will publish references to companies capable of providing these services.</p>
-                            <a href="/audits" rel="noreferrer"><p className="flex font-semibold">Find out more<img
+                            <Link href="/audits" rel="noreferrer"><p className="flex font-semibold">Find out more<img
                                 className="ml-2"
                                 src="/svg/arrow-white.svg"
                                 alt="Download icon"
-                            /></p></a>
+                            /></p></Link>
                         </div>
                         <div className="md:mx-12">
                             <h3 className="pt-12 pb-6 text-3xl font-bold">Regulatory</h3>
-                            <div class="border-b-2 border-gold w-56"></div>
+                            <div className="border-b-2 border-gold w-56"></div>
                             <p className="py-6">Regulatory uniformity is absolutely essential to the crypto credit industry.
                                 In order for that to happen, the CCA must work very closely with regulators across the world in order to ensure that their work is in line with CCA guidelines. </p>
-                            <a href="/regulations" rel="noreferrer"><p className="flex font-semibold">Find out more<img
+                            <Link href="/regulations" rel="noreferrer"><p className="flex font-semibold">Find out more<img
                                 className="ml-2"
                                 src="/svg/arrow-white.svg"
                                 alt="Download icon"
-                            /></p></a>
+                            /></p></Link>
                         </div>
                     </div>
                 </div>
