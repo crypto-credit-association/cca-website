@@ -22,7 +22,7 @@ function About() {
                     <div className="mx-5 py-6 md:py-12">
                         <div className="md:mx-12">
                             <h2 className="pt-12 pb-6 text-3xl font-bold">Why was the CCA founded?</h2>
-                            <div class="border-b-2 border-gold w-28 md:w-96"></div>
+                            <div className="border-b-2 border-gold w-28 md:w-96"></div>
                             <p className="py-6 max-w-3xl text-justify">The Association was founded to lead the global digital assets credit narrative through the development and implementation of formalized standards, professionalism and good governance.  The aim is to work closely with regulators to ensure the Association’s voice is heard timely.</p>
                         </div>
                     </div>
