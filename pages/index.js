@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Footer from '../src/components/layout/footer'
 import Image from 'next/image'
 import Nav from '../src/components/mission/nav'
+import Link from 'next/link'
 
 
 export default function Home() {
@@ -27,12 +28,12 @@ export default function Home() {
             <p className="text-white text-center font-semibold text-lg">
               Connecting professionals worldwide working in the <br></br> crypto credit industry.
             </p>
-            <a href="/about" rel="noreferrer"><p className="flex text-white font-semibold pt-6">Find out more
+            <Link href="/about" rel="noreferrer"><p className="flex text-white font-semibold pt-6">Find out more
             <img
               src="/svg/arrow-white.svg"
               className="ml-2 text-white"
               alt="Download icon"
-            /></p></a>
+            /></p></Link>
           </div>
         </div>
         <div className="bg-blue-light">
