@@ -55,7 +55,7 @@ function About() {
                     <div className="mx-12 py-12">
                         <div className="md:mx-12">
                             <h3 className="pb-6 text-3xl font-bold">Executive Directors</h3>
-                            <div class="border-b-2 border-gold w-64 mb-10"></div>
+                            <div className="border-b-2 border-gold w-64 mb-10"></div>
                             <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
                             <BoardMembers
                                     img="/images/george.png"
@@ -64,7 +64,7 @@ function About() {
                                     bio=" George is a bilingual 20-year resident of Tokyo, who launched his Financial Services career as Controller at Credit Suisse, UBS and Merrill Lynch, following a successful foray in marketing & advertising for Formula 1 Racing's Benetton Team." />
                             </div>
                                     <h3 className="pb-6 text-3xl font-bold pt-12">Board Members</h3>
-                                    <div class="border-b-2 border-gold w-64 mb-12"></div>
+                                    <div className="border-b-2 border-gold w-64 mb-12"></div>
                             
                             <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
                                 <BoardMembers
