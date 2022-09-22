@@ -38,17 +38,12 @@ function Mission() {
                                 <li>private company credit, and</li>
                                 <li>public company ratings</li>
                             </ul>
-                            <a href="/standards" rel="noreferrer"><p className="flex font-semibold pt-6">Find out more<img
-                                className="ml-2"
-                                src="/svg/arrow-white.svg"
-                                alt="Download icon"
-                            /></p></a>
                         </div>
                         <div>
                             <h3 className="pt-12 pb-6 text-3xl font-bold">Audit</h3>
                             <div className="border-b-2 border-gold w-56"></div>
                             <p className="py-6">Certain processes defined by the CCA will require third-party audit and certification services.The CCA will publish references to companies capable of providing these services.</p>
-                            <Link href="/audits" rel="noreferrer"><p className="flex font-semibold">Find out more<img
+                            <Link href="/audits" rel="noreferrer"><p className="cursor-pointer flex font-semibold">Find out more<img
                                 className="ml-2"
                                 src="/svg/arrow-white.svg"
                                 alt="Download icon"
@@ -59,11 +54,6 @@ function Mission() {
                             <div className="border-b-2 border-gold w-56"></div>
                             <p className="py-6">Regulatory uniformity is absolutely essential to the crypto credit industry.
                                 In order for that to happen, the CCA must work very closely with regulators across the world in order to ensure that their work is in line with CCA guidelines. </p>
-                            <Link href="/regulations" rel="noreferrer"><p className="flex font-semibold">Find out more<img
-                                className="ml-2"
-                                src="/svg/arrow-white.svg"
-                                alt="Download icon"
-                            /></p></Link>
                         </div>
                     </div>
                 </div>
