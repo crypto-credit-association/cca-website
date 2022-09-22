@@ -14,10 +14,7 @@ function About() {
                     </h1>
                 </div>
             </div>
-            <div className="max-w-7xl m-auto">
-                <img className="w-96 justify-center hidden md:flex ml-auto md:mr-12 lg:mr-20 z-10 -mt-20 md:-mt-40 pointer-events-none" src="/images/coloured-tiles.png" alt="color tiles" />
-            </div>
-            <div className="bg-gray md:-mt-40">
+            <div className="bg-gray">
                 <div className="max-w-7xl m-auto">
                     <div className="mx-5 py-6 md:py-12">
                         <div className="md:mx-12">

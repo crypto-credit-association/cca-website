@@ -14,10 +14,7 @@ function Mission() {
                     </h1>
                 </div>
             </div>
-            <div className="max-w-7xl m-auto">
-                <img className="w-96 justify-center hidden md:flex ml-auto md:mr-12 lg:mr-20 z-10 -mt-20 md:-mt-40 pointer-events-none" src="/images/mixed-tiles.png" alt="color tiles" />
-            </div>
-            <div className="bg-gray md:-mt-40">
+            <div className="bg-gray">
                 <div className="max-w-7xl m-auto px-12 py-12">
                     <div className="md:mx-12">
                         <h3 className="pb-6 text-3xl font-bold">Our Vision</h3>
@@ -45,7 +42,7 @@ function Mission() {
                             <p className="py-6">Certain processes defined by the CCA will require third-party audit and certification services.The CCA will publish references to companies capable of providing these services.</p>
                             <Link href="/audits" rel="noreferrer"><p className="cursor-pointer flex font-semibold">Find out more<img
                                 className="ml-2"
-                                src="/svg/arrow-white.svg"
+                                src="/svg/arrow-blue.svg"
                                 alt="Download icon"
                             /></p></Link>
                         </div>
