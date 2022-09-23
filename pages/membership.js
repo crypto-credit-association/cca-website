@@ -73,36 +73,24 @@ function Membership() {
                     <li>Individuals:  any professionals, such as consultants, lawyers, accountants, traders with an interest in crypto lending. </li>
                   </ul>            
               <h3 className="pb-6 text-3xl font-bold text-center pb-16 underline">Types of membership</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 max-w-4xl m-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3">
+                <div className="bg-blue-dark md:w-96 h-full py-12 shadow-2xl mx-10 md:m-auto">
+                  <h4 className="text-white text-2xl font-semibold underline px-5">Individual Members</h4>
+                  <p className="py-6 text-white px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Aliquam ut porttitor leo a diam sollicitudin tempor. Donec ultrices tincidunt arcu non sodales neque sodales.</p>
+                  <p className="py-6 text-white px-5">Membership fee:  USD $225</p>
+                </div>
                 <div className="bg-blue-dark md:w-96 h-full py-12 shadow-2xl mx-5 md:m-auto">
-                  <h4 className="text-white text-center text-2xl font-semibold underline">Ordinary Members</h4>
-                  <p className="py-6 text-white px-5 md:px-12">Ordinary Members enjoy full voting rights. Ordinary Members are required to pay Membership Fees according to their age.</p>
-                  <p className="py-6 text-white px-5 md:px-12">A Founding Member is an Ordinary Member firm that joined the Consortium within three months of its creation. Founding Members will elect the first Board of Directors and hire the first Executive Director. Thereafter Board of Directors and Executive directors will be elected by all Ordinary Members. The Founding Member designation is an honorific that will be used as long as the firm is a Consortium member in good standing.</p>
-                  <p className="py-6 text-white px-5 md:px-12">All Ordinary Members will be for-profit corporations. </p>
+                  <h4 className="text-white text-2xl font-semibold underline px-5">Corporate Members</h4>
+                  <p className="py-6 text-white px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Aliquam ut porttitor leo a diam sollicitudin tempor. Donec ultrices tincidunt arcu non sodales neque sodales.</p>
+                  <p className="py-6 text-white px-5">Membership fee:  USD $2,250</p>
                 </div>
                 <div className="bg-blue-dark mt-10 md:w-96 h-full py-12 shadow-2xl mx-5 md:m-auto">
-                  <h4 className="text-white text-center text-2xl font-semibold underline">Advisory Members</h4>
-                  <p className="py-6 text-white px-5 md:px-12 font-semibold">Advisory Members will include:</p>
-                  <ul className="ml-5 md:ml-0 list-outside list-disc px-5 md:px-16">
-                    <li className="text-white">Regulators who wish to have first-class visibility into the work being done by the CCA.</li>
-                    <li className="text-white">Distributed Organizations (unincorporated DeFi projects) that wish to contribute to the evolution of crypto credit.</li>
-                  </ul>
-                  <p className="py-6 text-white px-5 md:px-12 font-semibold">Advisory memberships will:</p>
-                  <ul className="ml-5 md:ml-0 list-outside list-disc px-5 md:px-16">
-                    <li className="text-white">Be agreed on an annual basis by the Consortium Board.</li>
-                    <li className="text-white">Not be required to pay membership fees.</li>
-                    <li className="text-white">Not be eligible for Board membership, and</li>
-                    <li className="text-white">will not be allowed a vote.</li>
-                  </ul>
+                  <h4 className="text-white text-2xl font-semibold underline px-5">Charter Members</h4>
+                  <p className="py-6 text-white px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Aliquam ut porttitor leo a diam sollicitudin tempor. Donec ultrices tincidunt arcu non sodales neque sodales.</p>
+                  <p className="py-6 text-white px-5">Membership fee:  USD 22,500*</p>
+                  <p className="py-6 px-5 font-semibold text-white">*Charter memberships will only be available in 2022. A Charter Member in good standing will always be recognized as such.</p>
                 </div>
             </div>
-            <h3 className="pt-24 md:pt-12 pb-6 text-3xl font-bold underline">Membership fee</h3>
-            <ul className="ml-5 md:ml-0 list-outside list-disc px-5">
-                    <li>Individual - USD 225</li>
-                    <li>Corporate - USD 2,250</li>
-                    <li>Charter - USD 22,500*</li>
-            </ul>
-            <p className="py-6 px-5 font-semibold">*Charter memberships will only be available in 2022. A Charter Member in good standing will always be recognized as such.</p>
             <GetinTouch />
           </div>
         </div>

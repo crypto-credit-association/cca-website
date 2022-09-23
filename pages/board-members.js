@@ -38,10 +38,10 @@ function BoardMembersPage() {
                             bio=" Born in Argentina, Paul has lived and worked all over the world. He used to write a lot of code. Now he’s kind of rusty. He does whatever needs doing, whether or not it’s fun."
                             bioTwo="He believes the answer to most questions can be found in musical and opera scores." />
                         <BoardMembers
-                            img="/images/serge-ugarte.png"
-                            name="Serge Ugarte"
+                            img="/images/john-salomon.png"
+                            name="John Salomon"
                             title="Board Member"
-                            bio="Serge has a background in strategy and business development. Having held senior positions at Cisco, Accenture, and having founded his own research & management consulting, Serge has kean leadership skills. Currently, he specialises in disruptive architectures, such as blockchain, machine learning, and AI." />
+                            bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Aliquam ut porttitor leo a diam sollicitudin tempor. Donec ultrices tincidunt arcu non sodales neque sodales." />
                         <BoardMembers
                             img="/images/darshain.png"
                             name="Darshan Vaidya"
