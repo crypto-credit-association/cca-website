@@ -74,12 +74,12 @@ function Membership() {
                   </ul>            
               <h3 className="pb-6 text-3xl font-bold text-center pb-16 underline">Types of membership</h3>
             <div className="grid grid-cols-1 md:grid-cols-3">
-                <div className="bg-blue-dark md:w-96 h-full py-12 shadow-2xl mx-10 md:m-auto">
+                <div className="bg-blue-dark md:w-96 h-full py-12 shadow-2xl mb-5 mx-5 md:m-auto">
                   <h4 className="text-white text-2xl font-semibold underline px-5">Individual Members</h4>
                   <p className="py-6 text-white px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Aliquam ut porttitor leo a diam sollicitudin tempor. Donec ultrices tincidunt arcu non sodales neque sodales.</p>
                   <p className="py-6 text-white px-5">Membership fee:  USD $225</p>
                 </div>
-                <div className="bg-blue-dark md:w-96 h-full py-12 shadow-2xl mx-5 md:m-auto">
+                <div className="bg-blue-dark md:w-96 h-full py-12 shadow-2xl mx-5 md:m-auto mt-5">
                   <h4 className="text-white text-2xl font-semibold underline px-5">Corporate Members</h4>
                   <p className="py-6 text-white px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Aliquam ut porttitor leo a diam sollicitudin tempor. Donec ultrices tincidunt arcu non sodales neque sodales.</p>
                   <p className="py-6 text-white px-5">Membership fee:  USD $2,250</p>
