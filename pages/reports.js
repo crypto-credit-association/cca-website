@@ -8,7 +8,7 @@ function Reports() {
         <Nav />
             <div className="bg-blue-dark">
                 <div className="flex flex-col py-40 max-w-7xl m-auto" style={{ background: `url('/images/blue-bg.png')`, backgroundPosition: 'center top', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', maxWidth: '1500px', margin: 'auto', }}>
-                    <h1 className="text-white text-center font-bold md:pl-24 text-center md:text-left">
+                    <h1 className="text-white lg:pl-24 font-bold md:pl-24 px-5 lg:px-0 text-left">
                         Crypto Credit Report
                     </h1>
                 </div>

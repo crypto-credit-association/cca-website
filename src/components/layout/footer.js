@@ -28,6 +28,9 @@ export const Footer = () => {
             <Link href="/mission">
             <p className="gridIndividual text-blue-dark ml-4 text-sm hover:underline">Mission</p>
             </Link>
+            <Link href="/reports">
+            <p className="gridIndividual text-blue-dark ml-4 text-sm hover:underline">Legal</p>
+          </Link>
           </div>
           <div>
           <Link href="/membership">
@@ -35,6 +38,9 @@ export const Footer = () => {
           </Link>
           <Link href="/reports">
             <p className="gridIndividual text-blue-dark ml-4 text-sm hover:underline">Crypto Credit Report</p>
+          </Link>
+          <Link href="/statutes-and-rules">
+            <p className="gridIndividual text-blue-dark ml-4 text-sm hover:underline">Statutes and Rules</p>
           </Link>
           </div>
         </div>

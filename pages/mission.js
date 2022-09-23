@@ -9,14 +9,14 @@ function Mission() {
             <Nav />
             <div className="bg-blue-dark">
                 <div className="flex flex-col max-w-7xl m-auto">
-                    <h1 className="text-white font-bold md:pl-24 py-40 text-center md:text-left">
+                    <h1 className="text-white font-bold md:pl-24 py-40 px-5 lg:px-0 text-left">
                         Mission
                     </h1>
                 </div>
             </div>
             <div className="bg-gray">
-                <div className="max-w-7xl m-auto px-12 py-12">
-                    <div className="md:mx-12">
+                <div className="max-w-7xl m-auto px-5 lg:px-12 py-12">
+                    <div>
                         <h3 className="pb-6 text-3xl font-bold">Our Vision</h3>
                         <div className="border-b-2 border-gold w-48"></div>
                         <ul className="ml-5 md:ml-0 py-6 list-outside list-disc">
@@ -26,7 +26,7 @@ function Mission() {
                         </ul>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3">
-                        <div className="md:mx-12">
+                        <div>
                             <h3 className="pt-12 pb-6 text-3xl font-bold">Standards</h3>
                             <div className="border-b-2 border-gold w-56"></div>
                             <p className="py-6">CCA sub-committees will work with Members to define standards in three key  areas as data and the market value/need differ significantly:</p>

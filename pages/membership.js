@@ -8,7 +8,7 @@ function Membership() {
       <Nav />
       <div className="bg-blue-dark">
         <div className="flex flex-col w-full max-w-6xl m-auto">
-          <h1 className="text-white font-bold py-40 text-center md:text-left">
+          <h1 className="text-white font-bold py-40 px-5 lg:px-0 text-left">
             Membership
           </h1>
         </div>

@@ -10,7 +10,7 @@ function classNames(...classes) {
 
 export default function Test(props) {
     return (
-        <div className="my-5 sticky top-0 z-10 bg-white pr-5 shadow-sm">
+        <div className="my-5 sticky top-0 z-10 bg-white pr-5">
             <main>
                 <Disclosure as="nav">
                     {({ open }) => (
