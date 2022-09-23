@@ -3,9 +3,8 @@ import React from "react";
 function GetinTouch(props) {
     return (
         <>
-            <div>
+            <div className="mt-10 lg:my-24">
                 <h3 className="pt-24 pb-5 text-3xl font-bold paddingBt">Want to become a board member? Get in touch!</h3>
-            </div>
             <div className="max-w-6xl md:m-auto flex mx-auto py-10 md:pt-10">
                 <div className="px-5">
                     <p className="pt-8 pb-2.5 text-lg"> Paul Murphy</p>
@@ -16,6 +15,7 @@ function GetinTouch(props) {
                     <a href="mailto:george@cca.com" target="_blank" rel="noreferrer"><p className="md:px-10 pb-8 text-lg">george@cca.com</p></a>
                 </div>
             </div>
+        </div>
         </>
     );
 }
