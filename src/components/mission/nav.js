@@ -58,6 +58,15 @@ export default function Test(props) {
                                                 <Menu.Button>
                                                     <div className="navItems mx-10 border-transparent inline-flex items-center text-sm font-medium">
                                                         <Link
+                                                            href="/board-members"
+                                                        >
+                                                            Board Members
+                                                        </Link>
+                                                    </div>
+                                                </Menu.Button>
+                                                <Menu.Button>
+                                                    <div className="navItems mx-10 border-transparent inline-flex items-center text-sm font-medium">
+                                                        <Link
                                                             href="/membership"
                                                         >
                                                             Membership

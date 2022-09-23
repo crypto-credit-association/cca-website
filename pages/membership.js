@@ -1,6 +1,8 @@
 import Nav from "../src/components/mission/nav";
 import Footer from "../src/components/layout/footer";
 import GetinTouch from "../src/components/layout/getInTouch";
+import Link from "next/link";
+
 
 function Membership() {
   return (
@@ -23,39 +25,54 @@ function Membership() {
                   className="ml-6 w-8"
                   src="/svg/blue-tick.svg"
                   alt="Tick icon"
-                /><p className="ml-6 pb-6 text-base mt-2">Regulatory thought leadership<br></br> and good practice</p>
+                /><p className="ml-6 pb-6 text-base mt-2">Network and collaborate with peers.</p>
               </div>
               <div className="border-l-2 border-gold pr-6 pt-6">
                 <img
                   className="ml-6 w-8"
                   src="/svg/blue-tick.svg"
                   alt="Tick icon"
-                /><p className="ml-6 pb-6 text-base mt-2">Networking and collaboration</p>
+                /><p className="ml-6 pb-6 text-base mt-2">Inform and influence regulation.</p>
               </div>
               <div className="border-l-2 border-gold pr-6 pt-6">
                 <img
                   className="ml-6 w-8"
                   src="/svg/blue-tick.svg"
                   alt="Tick icon"
-                /><p className="ml-6 pb-6 text-base mt-2">Access to certification<br></br> and licensing programs</p>
-              </div>
-              <div className="border-l-2 border-gold pr-6 pt-6">
-                <img
-                  className="ml-6 w-8"
-                  src="/svg/blue-tick.svg"
-                  alt="Tick icon"
-                /><p className="ml-6 pb-6 text-base mt-2">Connect With (or Be) a Mentor</p>
+                /><p className="ml-6 pb-6 text-base mt-2">Access industry materials and certification programs.
+                </p>
               </div>
               </div>
-              <p className="pb-6 text-xl font-semibold underline">Member opportunities:</p>
-              <ul className="ml-5 md:ml-0 list-outside list-disc px-5 md:px-16 pb-12">
-                    <li>Active advocate and strategic leadership for the industry.  Fight for what’s best for your business and your customers, or at the very least, stay on top of what is being advocated for on your behalf.</li>
-                    <li>Access to the membership directory, increased exposure to new markets and potential clients.  Excellent opportunity to network with other professionals and entrepreneurs in the field.</li>
-                    <li>Taking advantage of association resources can help you earn and maintain an edge over non-member competitors, thanks to access to inside information and advanced training opportunities.</li>
-                    <li>The association has members at every stage of their career, from junior employees just getting started to industry veterans who have built thriving, successful businesses.  A great way to either give or receive support, advice and mentorship from other players in the industry.</li>
+              <p className="pb-6 text-xl font-semibold underline">CCA services:</p>
+              <p className="pb-6">The CCA is a not-for-profit industry association dedicated to improving the robustness of the crypto-lending industry. CCA uses member fees and contributions to provide a number of services, including.</p>
+              <ul className="ml-5 md:ml-0 list-outside list-disc px-5">
+                    <li>Relevant research materials and publications</li>
+                    <li>Member-accessible research portal</li>
+                    <li>Meeting and conference services</li>
+                    <li>Facilitation of information exchange between participants:  online collaboration, working groups and committees, regular briefing calls</li>
                   </ul>
-            
-            <h3 className="pb-6 text-3xl font-bold text-center pb-16 underline">Types of membership</h3>
+                  <Link
+                            href="/statutes-and-rules"
+                        >
+                            <button
+                                type="button"
+                                href="/memberships"
+                                className="my-10 items-center bg-blue-dark px-10 inline-flex py-3 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white"
+                            >
+                                Learn more about our statutes and rules
+                                <img
+                                className="ml-2"
+                                src="/svg/arrow-white.svg"
+                                alt="Download icon"
+                            />
+                            </button>
+                        </Link>
+              <p className="pt-5 pb-6 text-xl font-semibold underline">Who should join?</p>
+              <ul className="ml-5 md:ml-0 list-outside list-disc px-5 pb-12">
+                    <li>Organisations:  any firm engaged in crypto lending.</li>
+                    <li>Individuals:  any professionals, such as consultants, lawyers, accountants, traders with an interest in crypto lending. </li>
+                  </ul>            
+              <h3 className="pb-6 text-3xl font-bold text-center pb-16 underline">Types of membership</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 max-w-4xl m-auto">
                 <div className="bg-blue-dark md:w-96 h-full py-12 shadow-2xl mx-5 md:m-auto">
                   <h4 className="text-white text-center text-2xl font-semibold underline">Ordinary Members</h4>
@@ -80,9 +97,12 @@ function Membership() {
                 </div>
             </div>
             <h3 className="pt-24 md:pt-12 pb-6 text-3xl font-bold underline">Membership fee</h3>
-            <p>Ordinary Members will be required to pay an annual fee in order to cover the costs of running the Consortium.</p>
-            <br></br>
-            <p>Two tiers of membership fees will be charged: Established and Startup. Both will afford members identical rights. Companies will be eligible to pay the Startup fee if they are less than 5 years old. </p>
+            <ul className="ml-5 md:ml-0 list-outside list-disc px-5">
+                    <li>Individual - USD 225</li>
+                    <li>Corporate - USD 2,250</li>
+                    <li>Charter - USD 22,500*</li>
+            </ul>
+            <p className="py-6 px-5 font-semibold">*Charter memberships will only be available in 2022. A Charter Member in good standing will always be recognized as such.</p>
             <GetinTouch />
           </div>
         </div>
