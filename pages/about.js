@@ -34,7 +34,6 @@ function About() {
                         >
                             <button
                                 type="button"
-                                href="/memberships"
                                 className="mt-10 items-center bg-blue-dark px-10 inline-flex py-3 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white"
                             >
                                 Learn more about our statutes and rules
@@ -57,7 +56,6 @@ function About() {
                         >
                             <button
                                 type="button"
-                                href="/memberships"
                                 className="mt-5 items-center bg-blue-dark px-10 inline-flex py-3 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white"
                             >
                                 Learn more about board members

@@ -38,7 +38,7 @@ function Legal() {
                             Switzerland
                             <br />
                             <br />
-                            <a className="cursor-pointer" href="mailto:contact@cryptocreditassociation.org" target="_blank">contact@cryptocreditassociation.org</a>
+                            <a className="cursor-pointer" href="mailto:contact@cryptocreditassociation.org" target="_blank" rel="noreferrer">contact@cryptocreditassociation.org</a>
                         </p>
                     </div>
                 </div>
