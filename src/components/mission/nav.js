@@ -51,25 +51,7 @@ export default function Test(props) {
                                                         <Link
                                                             href="/about"
                                                         >
-                                                            About the CCA
-                                                        </Link>
-                                                    </div>
-                                                </Menu.Button>
-                                                <Menu.Button>
-                                                    <div className="navItems mx-10 border-transparent inline-flex items-center text-sm font-medium">
-                                                        <Link
-                                                            href="/board-members"
-                                                        >
-                                                            Board Members
-                                                        </Link>
-                                                    </div>
-                                                </Menu.Button>
-                                                <Menu.Button>
-                                                    <div className="navItems mx-10 border-transparent inline-flex items-center text-sm font-medium">
-                                                        <Link
-                                                            href="/membership"
-                                                        >
-                                                            Membership
+                                                            About
                                                         </Link>
                                                     </div>
                                                 </Menu.Button>
@@ -85,9 +67,27 @@ export default function Test(props) {
                                                 <Menu.Button>
                                                     <div className="navItems mx-10 border-transparent inline-flex items-center text-sm font-medium">
                                                         <Link
+                                                            href="/membership"
+                                                        >
+                                                            Membership
+                                                        </Link>
+                                                    </div>
+                                                </Menu.Button>
+                                                <Menu.Button>
+                                                    <div className="navItems mx-10 border-transparent inline-flex items-center text-sm font-medium">
+                                                        <Link
+                                                            href="/board-members"
+                                                        >
+                                                            Board
+                                                        </Link>
+                                                    </div>
+                                                </Menu.Button>
+                                                <Menu.Button>
+                                                    <div className="navItems mx-10 border-transparent inline-flex items-center text-sm font-medium">
+                                                        <Link
                                                             href="/reports"
                                                         >
-                                                            Crypto Credit Report
+                                                            Reports
                                                         </Link>
                                                     </div>
                                                 </Menu.Button>

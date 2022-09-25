@@ -23,24 +23,21 @@ export const Footer = () => {
         <div className="flex flex-wrap block m-auto">
           <div className="gridLeft">
             <Link href="/about">
-            <p className="gridIndividual text-blue-dark text-sm">About the CCA</p>
+            <p className="gridIndividual text-blue-dark text-sm">About</p>
             </Link>
             <Link href="/mission">
             <p className="gridIndividual text-blue-dark ml-4 text-sm hover:underline">Mission</p>
             </Link>
-            <Link href="/legal">
-            <p className="gridIndividual text-blue-dark ml-4 text-sm hover:underline">Legal</p>
+            <Link href="/membership">
+            <p className="gridIndividual text-blue-dark text-sm hover:underline">Membership</p>
           </Link>
           </div>
           <div>
-          <Link href="/membership">
-            <p className="gridIndividual text-blue-dark text-sm hover:underline">Membership</p>
+          <Link href="/board-members">
+            <p className="gridIndividual text-blue-dark ml-4 text-sm hover:underline">Board</p>
           </Link>
           <Link href="/reports">
-            <p className="gridIndividual text-blue-dark ml-4 text-sm hover:underline">Crypto Credit Report</p>
-          </Link>
-          <Link href="/statutes-and-rules">
-            <p className="gridIndividual text-blue-dark ml-4 text-sm hover:underline">Statutes and Rules</p>
+            <p className="gridIndividual text-blue-dark ml-4 text-sm hover:underline">Reports</p>
           </Link>
           </div>
         </div>
