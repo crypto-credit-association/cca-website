@@ -10,7 +10,7 @@ function About() {
             <div className="bg-blue-dark">
                 <div className="flex flex-col max-w-7xl m-auto">
                     <h1 className="text-white font-bold md:pl-24 py-40 text-center md:text-left">
-                        About the CCA
+                        Crypto Credit Association
                     </h1>
                 </div>
             </div>
