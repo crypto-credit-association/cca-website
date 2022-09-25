@@ -19,11 +19,11 @@ export default function Home() {
         <div className="bg-blue-light">
           <div className="hidden md:flex flex-col items-center justify-center py-32 heroBg">
             <h1 className="text-white text-center text-6xl justify-center font-bold pb-12">
-              Connect
-              <br></br>
               Crypto
               <br></br>
-              People
+              Credit
+              <br></br>
+              Association
             </h1>
             <p className="text-white text-center font-semibold text-lg">
               Connecting professionals worldwide working in the <br></br> crypto credit industry.
