@@ -1,6 +1,5 @@
 import Nav from "../src/components/mission/nav";
 import Footer from "../src/components/layout/footer";
-import GetinTouch from "../src/components/layout/getInTouch";
 import Link from "next/link";
 
 function About() {
@@ -74,7 +73,6 @@ function About() {
                             <br></br>
                             Associate membership consists of interested individuals and external entities with an interest in, and an ability to contribute towards, the development of the association’s objectives.</p>
                     </div>
-                    <GetinTouch />
                 </div>
             </div>
             <Footer />

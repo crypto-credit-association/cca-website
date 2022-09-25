@@ -1,7 +1,6 @@
 import Nav from "../src/components/mission/nav";
 import Footer from "../src/components/layout/footer";
 import BoardMembers from "../src/components/members/boardMembers";
-import GetinTouch from "../src/components/layout/getInTouch";
 
 
 function BoardMembersPage() {

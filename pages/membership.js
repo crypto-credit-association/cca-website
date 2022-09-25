@@ -1,6 +1,5 @@
 import Nav from "../src/components/mission/nav";
 import Footer from "../src/components/layout/footer";
-import GetinTouch from "../src/components/layout/getInTouch";
 import Link from "next/link";
 
 

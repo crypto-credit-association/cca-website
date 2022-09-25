@@ -1,15 +1,14 @@
-import GetinTouch from "../src/components/layout/getInTouch";
 import Nav from "../src/components/mission/nav";
 import Footer from "../src/components/layout/footer";
 
 function Reports() {
     return (
         <>
-        <Nav />
+            <Nav />
             <div className="bg-blue-dark">
                 <div className="flex flex-col py-40 max-w-7xl m-auto" style={{ background: `url('/images/blue-bg.png')`, backgroundPosition: 'center top', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', maxWidth: '1500px', margin: 'auto', }}>
                     <h1 className="text-white lg:pl-24 font-bold md:pl-24 px-5 lg:px-0 text-left">
-                        Crypto Credit Report
+                        Crypto Credit Reports
                     </h1>
                 </div>
             </div>
@@ -79,11 +78,10 @@ function Reports() {
                                         alt="Download icon"
                                     /></p></a>
                         </div>
-                        <GetinTouch />
                     </div>
                 </div>
             </div>
-        <Footer />
+            <Footer />
         </>
     );
 }
