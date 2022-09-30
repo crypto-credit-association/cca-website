@@ -28,21 +28,6 @@ function About() {
                                 <li>Work with regulatory bodies to encourage the development of consistent rules.</li>
                             </ul>
                             <p className="pt-3">CCA is a not-for-profit organisation incorporated in Switzerland, supported by membership dues and external grant funding.</p>
-                            <Link
-                            href="/statutes-and-rules"
-                        >
-                            <button
-                                type="button"
-                                className="mt-10 items-center bg-blue-dark px-10 inline-flex py-3 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white"
-                            >
-                                Learn more about our statutes and rules
-                                <img
-                                className="ml-2"
-                                src="/svg/arrow-white.svg"
-                                alt="Download icon"
-                            />
-                            </button>
-                        </Link>
                         </div>
                     </div>
                     <div className="mx-5 py-6">
