@@ -14,8 +14,8 @@ function About() {
                 </div>
             </div>
             <div className="bg-gray">
-                <div className="max-w-7xl m-auto">
-                    <div className="mx-5 py-6 md:py-12">
+                <div className="max-w-7xl m-auto py-6 md:py-12">
+                    <div className="mx-5">
                         <div className="md:mx-12">
                             <h2 className="pt-12 pb-6 text-3xl font-bold">What is the CCA?</h2>
                             <div className="border-b-2 border-gold w-28 md:w-96"></div>
