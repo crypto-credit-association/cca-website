@@ -33,10 +33,10 @@ function BoardMembersPage() {
                             title="Board Member"
                             bio=" George is a bilingual 20-year resident of Tokyo, who launched his Financial Services career as Controller at Credit Suisse, UBS and Merrill Lynch, following a successful foray in marketing & advertising for Formula 1 Racing's Benetton Team." />
                         <BoardMembers
-                            img="/images/john-salomon.png"
+                            img="/images/john.png"
                             name="John Salomon"
                             title="Board Member"
-                            bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Aliquam ut porttitor leo a diam sollicitudin tempor. Donec ultrices tincidunt arcu non sodales neque sodales." />
+                            bio="John Salomon is an information security professional with over 25 years of international, cross-sector experience in technology and leadership roles.  His in-depth knowledge of security risk management and regulatory considerations in the global financial sector includes a strong understanding of the challenges around the increasing prevalence of fintech and crypto services as established parts of the industry.  John is a member of the Cybersecurity Advisory Network (CyAN); he is a Swiss national and resides in Spain." />
                         <BoardMembers
                             img="/images/darshain.png"
                             name="Darshan Vaidya"

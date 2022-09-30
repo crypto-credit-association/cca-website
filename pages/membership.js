@@ -51,26 +51,35 @@ function Membership() {
                     <li>Facilitation of information exchange between participants: online collaboration, working groups and committees, regular briefing calls</li>
                   </ul>
               <p className="pt-5 pb-6 text-xl font-semibold underline">Who should join?</p>
-              <ul className="ml-5 md:ml-0 list-outside list-disc px-5 pb-12">
+              <ul className="ml-5 md:ml-0 list-outside list-disc px-5">
                     <li>Organisations:  any firm engaged in crypto lending.</li>
                     <li>Individuals:  any professionals, such as consultants, lawyers, accountants, traders with an interest in crypto lending. </li>
-                  </ul>            
-              <h3 className="pb-6 text-3xl font-bold text-center pb-16 underline">Types of membership</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3">
-                <div className="bg-blue-dark md:w-96 h-full py-12 shadow-2xl mb-5 mx-5 md:m-auto">
+                  </ul>    
+                  <p className="pt-5 pb-6 text-xl font-semibold underline">About the memberhsip:</p>
+                    <p>CCA activities are funded exclusively by membership dues.</p>
+                    <p>Member dues are annual, and assessed on a voluntary basis. The CCA relies on its members’ understanding that a strong, coordinated set of capabilities supported by the crypto lending industry requires financial resources.</p>
+                    <p>Fees are assessed annually, and are payable via bank or crypto transfer.  Note: for organizations joining before 01 June 2023, joining fees are waived.</p>
+              <h3 className="pb-6 text-3xl font-bold text-center py-16 underline">Types of membership</h3>
+            <div className="grid grid-cols-1 md:grid-cols-4">
+                <div className="bg-blue-dark h-full py-12 shadow-2xl mb-5 mx-5 md:mx-2">
                   <h4 className="text-white text-2xl font-semibold underline px-5">Individual Members</h4>
-                  <p className="py-6 text-white px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Aliquam ut porttitor leo a diam sollicitudin tempor. Donec ultrices tincidunt arcu non sodales neque sodales.</p>
-                  <p className="py-6 text-white px-5">Membership fee:  USD $225</p>
+                  <p className="pt-6 text-white px-5">For single persons</p>
+                  <p className="py-6 text-white px-5">Membership fee: US$225 / year (no joining fee)</p>
                 </div>
-                <div className="bg-blue-dark md:w-96 h-full py-12 shadow-2xl mx-5 md:m-auto mt-5">
+                <div className="bg-blue-dark h-full py-12 shadow-2xl mx-5 md:mx-2 mt-5 md:mt-0">
                   <h4 className="text-white text-2xl font-semibold underline px-5">Corporate Members</h4>
-                  <p className="py-6 text-white px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Aliquam ut porttitor leo a diam sollicitudin tempor. Donec ultrices tincidunt arcu non sodales neque sodales.</p>
-                  <p className="py-6 text-white px-5">Membership fee:  USD $2,250</p>
+                  <p className="py-6 text-white px-5">For smaller firms.  Grants access to CCA activities and services for entire organization and its staff.  May vote for board of directors candidates.</p>
+                  <p className="py-6 text-white px-5">Membership fee: US$2,250 / year (joining fee:  US$1,000)</p>
                 </div>
-                <div className="bg-blue-dark mt-10 md:w-96 h-full py-12 shadow-2xl mx-5 md:m-auto">
+                <div className="bg-blue-dark mt-10 h-full py-12 shadow-2xl mx-5 md:mx-2  md:mt-0">
+                  <h4 className="text-white text-2xl font-semibold underline px-5">Enterprise Members</h4>
+                  <p className="pt-6 text-white px-5">For mid-size firms.  May nominate board of directors candidates.</p>
+                  <p className="py-6 text-white px-5">Membership fee:  US$12,500 / year (joining fee:  US$2,500)</p>
+                </div>
+                <div className="bg-blue-dark mt-10 h-full py-12 shadow-2xl mx-5 md:mx-2  md:mt-0">
                   <h4 className="text-white text-2xl font-semibold underline px-5">Charter Members</h4>
-                  <p className="py-6 text-white px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Aliquam ut porttitor leo a diam sollicitudin tempor. Donec ultrices tincidunt arcu non sodales neque sodales.</p>
-                  <p className="py-6 text-white px-5">Membership fee:  USD 22,500*</p>
+                  <p className="pt-6 text-white px-5">For larger firms.  May nominate board of directors candidates.</p>
+                  <p className="py-6 text-white px-5">Membership fee: US$22,500 / year (joining fee:  US$5,000)*</p>
                   <p className="py-6 px-5 font-semibold text-white">*Charter memberships will only be available in 2022. A Charter Member in good standing will always be recognized as such.</p>
                 </div>
             </div>
