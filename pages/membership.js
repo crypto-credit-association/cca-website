@@ -85,7 +85,10 @@ function Membership() {
             </div>
             <p className="pt-10 pb-6 text-xl font-semibold underline">About the membership:</p>
                     <p>CCA activities are funded exclusively by membership dues.</p>
-                    <p>Member dues are annual, and assessed on a voluntary basis. The CCA relies on its members’ understanding that a strong, coordinated set of capabilities supported by the crypto lending industry requires financial resources.</p>
+                    <p className="py-2">Member dues are annual, and assessed on a voluntary basis. The CCA relies on its members’ understanding that a strong, coordinated set of capabilities supported by the crypto lending industry requires financial resources.</p>
+                    <p className="py-2">Fees are assessed annually, and are payable via bank or crypto transfer.  For organizations joining before 1 June 2023, joining fees are waived.</p>
+                    <p className="py-2">Corporations may nominate and vote for Board memberships annually.</p>
+                    <p className="py-2">Charter memberships will only be available until 1 June 2023. A Charter Member in good standing will always be recognized as such.</p>
           </div>
         </div>
       </div>
