@@ -55,34 +55,37 @@ function Membership() {
                     <li>Organisations:  any firm engaged in crypto lending.</li>
                     <li>Individuals:  any professionals, such as consultants, lawyers, accountants, traders with an interest in crypto lending. </li>
                   </ul>    
-                  <p className="pt-5 pb-6 text-xl font-semibold underline">About the memberhsip:</p>
-                    <p>CCA activities are funded exclusively by membership dues.</p>
-                    <p>Member dues are annual, and assessed on a voluntary basis. The CCA relies on its members’ understanding that a strong, coordinated set of capabilities supported by the crypto lending industry requires financial resources.</p>
-                    <p>Fees are assessed annually, and are payable via bank or crypto transfer.  Note: for organizations joining before 01 June 2023, joining fees are waived.</p>
               <h3 className="pb-6 text-3xl font-bold text-center py-16 underline">Types of membership</h3>
             <div className="grid grid-cols-1 md:grid-cols-4">
                 <div className="bg-blue-dark h-full py-12 shadow-2xl mb-5 mx-5 md:mx-2">
                   <h4 className="text-white text-2xl font-semibold underline px-5">Individual Members</h4>
-                  <p className="pt-6 text-white px-5">For single persons</p>
-                  <p className="py-6 text-white px-5">Membership fee: US$225 / year (no joining fee)</p>
+                  <p className="py-6 text-white px-5 italic">For single persons </p>
+                  <p className="text-white px-5">Yearly Membership Fee: US$ 225</p>
+                  <p className="text-white px-5">Joining Fee: None</p>
                 </div>
                 <div className="bg-blue-dark h-full py-12 shadow-2xl mx-5 md:mx-2 mt-5 md:mt-0">
-                  <h4 className="text-white text-2xl font-semibold underline px-5">Corporate Members</h4>
-                  <p className="py-6 text-white px-5">For smaller firms.  Grants access to CCA activities and services for entire organization and its staff.  May vote for board of directors candidates.</p>
-                  <p className="py-6 text-white px-5">Membership fee: US$2,250 / year (joining fee:  US$1,000)</p>
+                  <h4 className="italic text-white text-2xl font-semibold underline px-5">Corporate Members</h4>
+                  <p className="py-6 text-white px-5">For small firms (up to 1,000 employees)</p>
+                  <p className="text-white px-5">Yearly Membership Fee: US$ 2,250</p>
+                  <p className="text-white px-5">Joining Fee: US$ 1,000</p>
                 </div>
                 <div className="bg-blue-dark mt-10 h-full py-12 shadow-2xl mx-5 md:mx-2  md:mt-0">
                   <h4 className="text-white text-2xl font-semibold underline px-5">Enterprise Members</h4>
-                  <p className="pt-6 text-white px-5">For mid-size firms.  May nominate board of directors candidates.</p>
-                  <p className="py-6 text-white px-5">Membership fee:  US$12,500 / year (joining fee:  US$2,500)</p>
+                  <p className="py-6 text-white px-5 italic">For large firms (over 1,000 employees) </p>
+                  <p className="text-white px-5">Yearly Membership Fee: US$ 12,500</p>
+                  <p className="text-white px-5">Joining Fee: US$ 2,500</p>
                 </div>
-                <div className="bg-blue-dark mt-10 h-full py-12 shadow-2xl mx-5 md:mx-2  md:mt-0">
+                <div className="bg-blue-dark mt-10 h-full pt-12 pb-24 shadow-2xl mx-5 md:mx-2 md:mt-0">
                   <h4 className="text-white text-2xl font-semibold underline px-5">Charter Members</h4>
-                  <p className="pt-6 text-white px-5">For larger firms.  May nominate board of directors candidates.</p>
-                  <p className="py-6 text-white px-5">Membership fee: US$22,500 / year (joining fee:  US$5,000)*</p>
+                  <p className="py-6 text-white px-5 italic">For any firm</p>
+                  <p className="text-white px-5">Yearly Membership Fee: US$ 22,500</p>
+                  <p className="text-white px-5">Joining fee: US$ 5,000*</p>
                   <p className="py-6 px-5 font-semibold text-white">*Charter memberships will only be available in 2022. A Charter Member in good standing will always be recognized as such.</p>
                 </div>
             </div>
+            <p className="pt-10 pb-6 text-xl font-semibold underline">About the membership:</p>
+                    <p>CCA activities are funded exclusively by membership dues.</p>
+                    <p>Member dues are annual, and assessed on a voluntary basis. The CCA relies on its members’ understanding that a strong, coordinated set of capabilities supported by the crypto lending industry requires financial resources.</p>
           </div>
         </div>
       </div>
