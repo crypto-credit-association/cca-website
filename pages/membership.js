@@ -64,8 +64,8 @@ function Membership() {
                   <p className="text-white px-5">Joining Fee: None</p>
                 </div>
                 <div className="bg-blue-dark h-full py-12 shadow-2xl mx-5 md:mx-2 mt-5 md:mt-0">
-                  <h4 className="italic text-white text-2xl font-semibold underline px-5">Corporate Members</h4>
-                  <p className="py-6 text-white px-5">For small firms (up to 1,000 employees)</p>
+                  <h4 className="text-white text-2xl font-semibold underline px-5">Corporate Members</h4>
+                  <p className="italic py-6 text-white px-5">For small firms (up to 1,000 employees)</p>
                   <p className="text-white px-5">Yearly Membership Fee: US$ 2,250</p>
                   <p className="text-white px-5">Joining Fee: US$ 1,000</p>
                 </div>
