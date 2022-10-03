@@ -89,7 +89,6 @@ function Membership() {
                     <li className="py-2">Member dues are annual, and assessed on a voluntary basis. The CCA relies on its members’ understanding that a strong, coordinated set of capabilities supported by the crypto lending industry requires financial resources.</li>
                     <li className="py-2">Fees are assessed annually, and are payable via bank or crypto transfer.  For organizations joining before 1 June 2023, joining fees are waived.</li>
                     <li className="py-2">Corporations may nominate and vote for Board memberships annually.</li>
-                    <li className="py-2">Charter memberships will only be available until 1 June 2023. A Charter Member in good standing will always be recognized as such.</li>
             </ul>
           </div>
         </div>
