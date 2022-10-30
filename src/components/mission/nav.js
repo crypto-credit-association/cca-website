@@ -85,6 +85,15 @@ export default function Test(props) {
                                                 <Menu.Button>
                                                     <div className="navItems mx-10 border-transparent inline-flex items-center text-sm font-medium">
                                                         <Link
+                                                            href="/events"
+                                                        >
+                                                            Events
+                                                        </Link>
+                                                    </div>
+                                                </Menu.Button>
+                                                <Menu.Button>
+                                                    <div className="navItems mx-10 border-transparent inline-flex items-center text-sm font-medium">
+                                                        <Link
                                                             href="/reports"
                                                         >
                                                             Reports
@@ -115,7 +124,7 @@ export default function Test(props) {
                                         <button
                                             type="button"
                                             href="/memberships"
-                                            className="ctaButton px-10 inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white bg-blue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                                            className="ctaButton px-10 inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white bg-blue"
                                         >
                                             Become a member
                                         </button>
@@ -146,6 +155,15 @@ export default function Test(props) {
                                         className="flex justify-center navItems"
                                     >
                                         Mission
+                                    </Disclosure.Button>
+                                </div>
+                                <div className="pt-2 pb-3 space-y-1">
+                                    <Disclosure.Button
+                                        as="a"
+                                        href="/events"
+                                        className="flex justify-center navItems"
+                                    >
+                                        Events
                                     </Disclosure.Button>
                                 </div>
                                 <div className="pt-2 pb-3 space-y-1">
