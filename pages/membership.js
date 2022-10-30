@@ -57,21 +57,13 @@ function Membership() {
               <li>Organisations:  any firm engaged in crypto lending.</li>
               <li>Individuals:  any professionals, such as consultants, lawyers, accountants, traders with an interest in crypto lending. </li>
             </ul>
-            <Link
-              href="mailto:info@cryptocreditassociation.org"
-            >
-              <button
-                type="button"
-                className="mt-10 items-center bg-blue-dark px-10 inline-flex py-3 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white"
-              >
-                Get in touch to become a member
-                <img
-                  className="ml-2"
-                  src="/svg/arrow-white.svg"
-                  alt="Download icon"
-                />
-              </button>
-            </Link>
+            <div className="bg-white py-10 px-5 my-5 shadow-lg">
+            <p className="pb-6 text-xl font-semibold underline">How to become a member:</p>
+              <p>You can either pay the membership fee via bank transfer (coming soon) or crypto payments.</p>
+              <p className="pt-5 pb-6 text-md font-semibold underline">How to pay with Crypto:</p>
+              <p className="break-words">Dues can be paid in USDC, USDT, or DAI to this address: 0x18da8E75970eF4A5F34944dCB41899d469EBb4ac on the Ethereum network.</p>
+              <p className="pt-2">Once you have made the payment, please fill out the this <a href="https://docs.google.com/forms/d/e/1FAIpQLSegindINKmdUf3nSpRIDYQFCUBFD7sA0h4R30zSBcvBtoep8w/viewform" target="_blank" rel="norefereer" className="underline font-bold">form</a> to make sure we register your membership.</p>
+            </div>
             <h3 className="pb-6 text-3xl font-bold text-center py-16 underline">Types of membership</h3>
             <div className="grid grid-cols-1 md:grid-cols-4">
               <div className="bg-blue-dark h-full py-12 shadow-2xl mb-5 mx-5 md:mx-2">
