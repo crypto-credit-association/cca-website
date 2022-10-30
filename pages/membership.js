@@ -62,7 +62,7 @@ function Membership() {
               <p>You can either pay the membership fee via bank transfer (coming soon) or crypto payments.</p>
               <p className="pt-5 pb-6 text-md font-semibold underline">How to pay with Crypto:</p>
               <p className="break-words">Dues can be paid in USDC, USDT, or DAI to this address: 0x18da8E75970eF4A5F34944dCB41899d469EBb4ac on the Ethereum network.</p>
-              <p className="pt-2">Once you have made the payment, please fill out the this <a href="https://docs.google.com/forms/d/e/1FAIpQLSegindINKmdUf3nSpRIDYQFCUBFD7sA0h4R30zSBcvBtoep8w/viewform" target="_blank" rel="norefereer" className="underline font-bold">form</a> to make sure we register your membership.</p>
+              <p className="pt-2">Once you have made the payment, please fill out the this <a href="https://docs.google.com/forms/d/e/1FAIpQLSegindINKmdUf3nSpRIDYQFCUBFD7sA0h4R30zSBcvBtoep8w/viewform" target="_blank" rel="noreferrer" className="underline font-bold">form</a> to make sure we register your membership.</p>
             </div>
             <h3 className="pb-6 text-3xl font-bold text-center py-16 underline">Types of membership</h3>
             <div className="grid grid-cols-1 md:grid-cols-4">
