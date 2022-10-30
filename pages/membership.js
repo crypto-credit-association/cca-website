@@ -66,30 +66,30 @@ function Membership() {
             </div>
             <h3 className="pb-6 text-3xl font-bold text-center py-16 underline">Types of membership</h3>
             <div className="grid grid-cols-1 md:grid-cols-4">
-              <div className="bg-blue-dark h-full py-12 shadow-2xl mb-5 mx-5 md:mx-2">
-                <h4 className="text-white text-2xl font-semibold underline px-5">Individual Members</h4>
-                <p className="py-6 text-white px-5 italic">For single persons </p>
-                <p className="text-white px-5">Membership Fee: US$ 225/year</p>
-                <p className="text-white px-5">Joining Fee: None</p>
+              <div className="bg-blue-dark h-full py-12 shadow-2xl mb-5 mx-5 md:mx-2 px-3">
+                <h4 className="text-white text-2xl font-semibold underline">Individual Members</h4>
+                <p className="py-6 text-white italic">For single persons </p>
+                <p className="text-white">Membership Fee:  <br />US$ 225/year</p>
+                <p className="text-white pt-3">Joining Fee:  <br />None</p>
               </div>
-              <div className="bg-blue-dark h-full py-12 shadow-2xl mx-5 md:mx-2 mt-5 md:mt-0">
-                <h4 className="text-white text-2xl font-semibold underline px-5">Corporate Members</h4>
-                <p className="italic py-6 text-white px-5">For small firms (up to 1,000 employees)</p>
-                <p className="text-white px-5">Membership Fee: US$ 2,250/year</p>
-                <p className="text-white px-5">Joining Fee: US$ 1,000</p>
+              <div className="bg-blue-dark h-full py-12 shadow-2xl mx-5 md:mx-2 mt-5 md:mt-0 px-3">
+                <h4 className="text-white text-2xl font-semibold underline">Corporate Members</h4>
+                <p className="italic py-6 text-white">For small firms (up to 1,000 employees)</p>
+                <p className="text-white">Membership Fee:  <br />US$ 2,250/year</p>
+                <p className="text-white pt-3">Joining Fee:  <br />US$ 1,000</p>
               </div>
-              <div className="bg-blue-dark mt-10 h-full py-12 shadow-2xl mx-5 md:mx-2  md:mt-0">
-                <h4 className="text-white text-2xl font-semibold underline px-5">Enterprise Members</h4>
-                <p className="py-6 text-white px-5 italic">For large firms (over 1,000 employees) </p>
-                <p className="text-white px-5">Membership Fee: US$ 12,500/year</p>
-                <p className="text-white px-5">Joining Fee: US$ 2,500</p>
+              <div className="bg-blue-dark mt-10 h-full py-12 shadow-2xl mx-5 md:mx-2 md:mt-0  px-3">
+                <h4 className="text-white text-2xl font-semibold underline">Enterprise Members</h4>
+                <p className="py-6 text-white italic">For large firms (over 1,000 employees) </p>
+                <p className="text-white">Membership Fee: <br />US$ 12,500/year</p>
+                <p className="text-whitep pt-3">Joining Fee:  <br />US$ 2,500</p>
               </div>
-              <div className="bg-blue-dark mt-10 h-full pt-12 pb-24 shadow-2xl mx-5 md:mx-2 md:mt-0">
-                <h4 className="text-white text-2xl font-semibold underline px-5">Charter Members</h4>
-                <p className="py-6 text-white px-5 italic">For any firm</p>
-                <p className="text-white px-5">Membership Fee: US$ 22,500/year</p>
-                <p className="text-white px-5">Joining fee: US$ 5,000*</p>
-                <p className="py-6 px-5 font-semibold text-white">*Charter memberships will only be available until 1 June 2023. A Charter Member in good standing will always be recognized as such.</p>
+              <div className="bg-blue-dark mt-10 h-full pt-12 pb-24 shadow-2xl mx-5 md:mx-2 md:mt-0 px-3">
+                <h4 className="text-white text-2xl font-semibold underline">Charter Members</h4>
+                <p className="py-6 text-white italic">For any firm</p>
+                <p className="text-white">Membership Fee: <br />US$ 22,500/year</p>
+                <p className="text-white pt-3">Joining fee: <br />US$ 5,000*</p>
+                <p className="py-6 font-semibold text-white">*Charter memberships will only be available until 1 June 2023. A Charter Member in good standing will always be recognized as such.</p>
               </div>
             </div>
             <div className="mt-10">
