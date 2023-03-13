@@ -17,8 +17,8 @@ function EventCard(props) {
                     </h2>
                     <p className="mx-3 text-base font-light text-center leading-5 pb-5">{props.description}</p>
                     <button
-                        className="bg-blue-dark mx-4 px-10 w-auto h-auto flex items-center justify-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white bg-blue">
-                        <a href={props.url} target="_blank" rel="noreferrer">{props.cta}</a>
+                        className="bg-ccaBlue mx-4 px-10 w-auto h-auto flex items-center justify-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white">
+                        <a href={props.url} target="_blank" rel="noreferrer" className="text-white">{props.cta}</a>
                     </button>
                 </div>
             </div>
