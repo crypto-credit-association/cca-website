@@ -1,5 +1,5 @@
-import Nav from "../src/components/mission/nav";
-import Footer from "../src/components/layout/footer";
+import Nav from "../components/layout/nav";
+import Footer from "../components/layout/footer";
 import Link from "next/link";
 
 
@@ -7,7 +7,7 @@ function Membership() {
   return (
     <>
       <Nav />
-      <div className="bg-blue-dark">
+      <div className="bg-ccaBlue">
         <div className="flex flex-col w-full max-w-6xl m-auto">
           <h1 className="text-white font-bold py-40 px-5 lg:px-0 text-left">
             Membership
@@ -22,14 +22,14 @@ function Membership() {
               <div className="border-l-2 border-gold pr-6 pt-6">
                 <img
                   className="ml-6 w-8"
-                  src="/svg/blue-tick.svg"
+                  src="/assets/svg/blue-tick.svg"
                   alt="Tick icon"
                 /><p className="ml-6 pb-6 text-base mt-2">Network and collaborate with peers.</p>
               </div>
               <div className="border-l-2 border-gold pr-6 pt-6">
                 <img
                   className="ml-6 w-8"
-                  src="/svg/blue-tick.svg"
+                  src="/assets/svg/blue-tick.svg"
                   alt="Tick icon"
                 /><p className="ml-6 pb-6 text-base mt-2">Access industry resources, including certification programs.
                 </p>
@@ -37,7 +37,7 @@ function Membership() {
               <div className="border-l-2 border-gold pr-6 pt-6">
                 <img
                   className="ml-6 w-8"
-                  src="/svg/blue-tick.svg"
+                  src="/assets/svg/blue-tick.svg"
                   alt="Tick icon"
                 /><p className="ml-6 pb-6 text-base mt-2">Inform and influence regulation.</p>
 
@@ -66,25 +66,25 @@ function Membership() {
             </div>
             <h3 className="pb-6 text-3xl font-bold text-center py-16 underline">Types of membership</h3>
             <div className="grid grid-cols-1 md:grid-cols-4">
-              <div className="bg-blue-dark h-full py-12 shadow-2xl mb-5 mx-5 md:mx-2 px-3">
+              <div className="bg-ccaBlue h-full py-12 shadow-2xl mb-5 mx-5 md:mx-2 px-3">
                 <h4 className="text-white text-2xl font-semibold underline">Individual Members</h4>
                 <p className="py-6 text-white italic">For single persons </p>
                 <p className="text-white">Membership Fee:  <br />US$ 225/year</p>
                 <p className="text-white pt-3">Joining Fee:  <br />None</p>
               </div>
-              <div className="bg-blue-dark h-full py-12 shadow-2xl mx-5 md:mx-2 mt-5 md:mt-0 px-3">
+              <div className="bg-ccaBlue h-full py-12 shadow-2xl mx-5 md:mx-2 mt-5 md:mt-0 px-3">
                 <h4 className="text-white text-2xl font-semibold underline">Corporate Members</h4>
                 <p className="italic py-6 text-white">For small firms (up to 1,000 employees)</p>
                 <p className="text-white">Membership Fee:  <br />US$ 2,250/year</p>
                 <p className="text-white pt-3">Joining Fee:  <br />US$ 1,000</p>
               </div>
-              <div className="bg-blue-dark mt-10 h-full py-12 shadow-2xl mx-5 md:mx-2 md:mt-0  px-3">
+              <div className="bg-ccaBlue mt-10 h-full py-12 shadow-2xl mx-5 md:mx-2 md:mt-0  px-3">
                 <h4 className="text-white text-2xl font-semibold underline">Enterprise Members</h4>
                 <p className="py-6 text-white italic">For large firms (over 1,000 employees) </p>
                 <p className="text-white">Membership Fee: <br />US$ 12,500/year</p>
-                <p className="text-whitep pt-3">Joining Fee:  <br />US$ 2,500</p>
+                <p className="text-white pt-3">Joining Fee:  <br />US$ 2,500</p>
               </div>
-              <div className="bg-blue-dark mt-10 h-full pt-12 pb-24 shadow-2xl mx-5 md:mx-2 md:mt-0 px-3">
+              <div className="bg-ccaBlue mt-10 h-full pt-12 pb-24 shadow-2xl mx-5 md:mx-2 md:mt-0 px-3">
                 <h4 className="text-white text-2xl font-semibold underline">Charter Members</h4>
                 <p className="py-6 text-white italic">For any firm</p>
                 <p className="text-white">Membership Fee: <br />US$ 22,500/year</p>
@@ -105,12 +105,12 @@ function Membership() {
             >
               <button
                 type="button"
-                className="mt-10 items-center bg-blue-dark px-10 inline-flex py-3 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white"
+                className="mt-10 items-center bg-ccaBlue px-10 inline-flex py-3 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white"
               >
                 Get in touch to become a member
                 <img
                   className="ml-2"
-                  src="/svg/arrow-white.svg"
+                  src="/assets/svg/arrow-white-no-border.svg"
                   alt="Download icon"
                 />
               </button>

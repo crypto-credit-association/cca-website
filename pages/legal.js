@@ -1,11 +1,11 @@
-import Nav from "../src/components/mission/nav";
-import Footer from "../src/components/layout/footer";
+import Nav from "../components/layout/nav";
+import Footer from "../components/layout/footer";
 
 function Legal() {
     return (
         <>
             <Nav />
-            <div className="bg-blue-dark">
+            <div className="bg-ccaBlue">
                 <div className="flex flex-col max-w-7xl m-auto">
                     <h1 className="text-white font-bold md:pl-24 py-40 text-center md:text-left">
                         Legal

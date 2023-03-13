@@ -1,26 +1,27 @@
 const colors = require('tailwindcss/colors')
 
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: false, // or 'media' or 'class'
   theme: {
-    screens: {
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
-      '2xl': '1536px',
+    cursor: {
+      auto: 'auto',
+      default: 'default',
+      pointer: 'pointer',
     },
-    divideWidth: {
-      DEFAULT: '1px',
-      '0': '0',
+    borderRadius: {
+     'lg': '1.625rem',
+    },
+    borderWidth: {
+      '1': '1px',
       '2': '2px',
       '3': '3px',
       '4': '4px',
       '6': '6px',
+      '8': '8px',
     },
     fontWeight: {
       thin: 200,
@@ -29,34 +30,59 @@ module.exports = {
       medium: 500,
       semibold: 600,
       bold: 700,
+      extrabold: 1000,
+    },
+    borderRadius: {
+      'sm': '0.125rem',
+      'md': '0.375rem',
+      'lg': '0.5rem',
+      'full': '9999px',
+     '4xl': '3.5rem',
     },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      black: colors.black,
+      black: '#1A1A1A',
+      ccaBlue: '#5e7591',
+      ccaLightBlue: '#77a4b2',
       white: colors.white,
-      gray: colors.trueGray,
-      indigo: colors.indigo,
-      red: colors.rose,
+      gray: '#e8e9ea',
+      red: colors.red,
       yellow: colors.amber,
-      blue: {
-        light: '#77A4B2',
-        dark: '#5E7591',
-      },
-      gold: {
-        DEFAULT: '#C6B697',
-      },
-      gray: {
-        DEFAULT: '#E8E9EA',
-      },
+      blue: colors.blue,
+      purple: "#51256E",
+      lightpurple: "#7C5498",
+      linepurple: "#8966A3",
+      pink: "#DE1A60",
+      lightpink:"#FCECF3",
+      pinkextralight: "#FDFAFC",
+      lightgray: "#FCFAFB",
+      extralightgray: '#686868',
+      bggray: '#F4F4F6',
+      lightpurple: "#8966A3",
+      mediumblue: "#005488",
+      green: "#00FFB3",
+      mutedGreen: '#00D696',
+      gold: '#c6b697',
     },
-    fontFamily: {
-      'sans': ['ui-sans-serif', 'system-ui',],
-      extend: {},
-    },
+    extend: {
+      screens: {
+        small: "415px",
+        medium: "560px",
+        large: "960px",
+        xlarge: "1500px",
+      }
   },
   variants: {
-    extend: {},
+    extend: {
+      fontWeight: ['hover', 'focus'],
+      borderColor: ['hover', 'active'],
+      borderWidth: ['hover', 'focus'],
+      animation: ['hover', 'focus'],
+      animation: ['motion-safe'],
+      backdropBlur: ['hover', 'focus'],
+    },
   },
   plugins: [],
+}
 }

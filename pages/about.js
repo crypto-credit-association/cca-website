@@ -1,12 +1,12 @@
-import Nav from "../src/components/mission/nav";
-import Footer from "../src/components/layout/footer";
+import Nav from "../components/layout/nav";
+import Footer from "../components/layout/footer";
 import Link from "next/link";
 
 function About() {
     return (
         <>
             <Nav />
-            <div className="bg-blue-dark">
+            <div className="bg-ccaBlue">
                 <div className="flex flex-col max-w-7xl m-auto">
                     <h1 className="text-white font-bold md:pl-24 py-40 text-center md:text-left">
                         About the CCA
@@ -17,7 +17,7 @@ function About() {
                 <div className="max-w-7xl m-auto py-6 md:py-12">
                     <div className="mx-5">
                         <div className="md:mx-12">
-                            <h2 className="pt-12 pb-6 text-3xl font-bold">What is the CCA?</h2>
+                            <h2 className="pt-12 pb-6 text-3xl font-bold text-ccaBlue">What is the CCA?</h2>
                             <div className="border-b-2 border-gold w-28 md:w-96"></div>
                             <p className="pt-10 pb-3">The Crypto Credit Association is responsible for the development and dissemination of formal standards for the crypto-based credit industry. </p>
                             <p>The CCA maintains a set of self-governance principles for the sector, and serves as an advisory body to stakeholders in both private industry and government around the world.</p>
@@ -32,7 +32,7 @@ function About() {
                     </div>
                     <div className="mx-5 py-6">
                         <div className="md:mx-12">
-                            <h2 className="pt-12 pb-6 text-3xl font-bold">Why was the CCA founded?</h2>
+                            <h2 className="pt-12 pb-6 text-3xl font-bold text-ccaBlue">Why was the CCA founded?</h2>
                             <div className="border-b-2 border-gold w-28 md:w-96"></div>
                             <p className="pt-10 pb-3">Crypto-based lending is a new, comparatively unregulated space. The rapid evolution of technology and business practices bears the risk of unethical, irresponsible, or simply uninformed actors provoking regulatory overreach that can stifle innovation and the opportunities inherent in this sector.  The CCA aims to prevent and mitigate potential market volatility from bad practices, and to pre-empt the need for highly restrictive regulations by fostering the creation of a thoughtful, informed, and pragmatic code of conduct for industry participants.</p>
                             <Link
@@ -40,19 +40,19 @@ function About() {
                         >
                             <button
                                 type="button"
-                                className="mt-5 items-center bg-blue-dark px-10 inline-flex py-3 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white"
+                                className="mt-5 items-center bg-ccaBlue px-10 inline-flex py-3 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white"
                             >
                                 Learn more about board members
                                 <img
                                 className="ml-2"
-                                src="/svg/arrow-white.svg"
+                                src="/assets/svg/arrow-white-no-border.svg"
                                 alt="Download icon"
                             />
                             </button>
                         </Link>
                         </div>
                     </div>
-                    <div className="max-w-6xl bg-blue-dark mt-10 lg:mt-24 py-12 shadow-2xl mx-5 md:m-auto">
+                    <div className="max-w-6xl bg-ccaBlue mt-10 lg:mt-24 py-12 shadow-2xl mx-5 md:m-auto">
                         <h3 className="px-5 md:px-12 text-white text-4xl">Who should join?</h3>
                         <p className="py-6 text-white px-5 md:px-12">CCA membership is open to any commercial entity with activities in the crypto lending space.
                             <br></br>

@@ -1,11 +1,11 @@
-import Nav from "../src/components/mission/nav";
-import Footer from "../src/components/layout/footer";
+import Nav from "../components/layout/nav";
+import Footer from "../components/layout/footer";
 
 function Audits() {
     return (
         <>
         <Nav />
-            <div className="bg-blue-dark">
+            <div className="bg-ccaBlue">
                 <div className="flex flex-col w-full max-w-7xl m-auto">
                     <h1 className="text-white font-bold py-40 px-5 lg:px-0 text-left">
                         Audits

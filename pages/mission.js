@@ -1,13 +1,12 @@
-import Stats from "../src/components/mission/stats";
-import Nav from "../src/components/mission/nav";
-import Footer from "../src/components/layout/footer";
-import Link from 'next/link'
+import Nav from "../components/layout/nav";
+import Footer from "../components/layout/footer";
+import Stats from "../components/mission/stats";
 
 function Mission() {
     return (
         <>
             <Nav />
-            <div className="bg-blue-dark">
+            <div className="bg-ccaBlue">
                 <div className="flex flex-col max-w-7xl m-auto">
                     <h1 className="text-white font-bold md:pl-24 py-40 px-5 lg:px-0 text-left">
                         Mission
@@ -43,7 +42,7 @@ function Mission() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-blue-light">
+                <div className="bg-ccaLightBlue">
                     <div className="max-w-7xl m-auto flex flex-col py-20">
                         <h3 className="text-white text-center text-3xl justify-center font-bold pb-6">Crypto Credit in numbers</h3>
                         <div className="grid grid-cols-1 md:grid-cols-3">
