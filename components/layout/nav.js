@@ -84,7 +84,7 @@ export default function Nav() {
                                                 'workSans group text-ccaBlue rounded-md inline-flex items-center text-base'
                                             )}
                                         >
-                                            <span>Company</span>
+                                            <span>Organization</span>
                                             <ChevronDownIcon
                                                 className={classNames(
                                                     open ? 'text-ccaBlue' : 'text-ccaBlue',
@@ -252,7 +252,7 @@ export default function Nav() {
                     leaveTo="opacity-0 scale-95"
                 >
                     <Popover.Panel focus className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-                        <div className="rounded-lg bg-green shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+                        <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                             <div className="pt-5 pb-6 px-5">
                                 <div className="flex items-center justify-between">
                                     <div>
@@ -298,7 +298,7 @@ export default function Nav() {
                                                 <Popover.Panel>
                                                     <div className="overflow-hidden">
                                                         <div className="relative grid gap-6 px-5 py-6 sm:gap-8 sm:p-8">
-                                                            {community.map((item) => (
+                                                            {projects.map((item) => (
                                                                 <a
                                                                     key={item.name}
                                                                     href={item.href}
@@ -325,7 +325,7 @@ export default function Nav() {
                                                 'group text-credmarkpurple rounded-md inline-flex items-center text-base pt-5'
 
                                             >
-                                                <span>Company</span>
+                                                <span>Organization</span>
                                                 <ChevronDownIcon
                                                     className={classNames(
                                                         open ? 'text-credmarkpurple' : 'text-credmarkpurple',
@@ -404,16 +404,6 @@ export default function Nav() {
                                         </>
                                     )}
                                 </Popover>
-
-                                <Link
-                                    href="/credmark-model-framework"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    <div className='group text-credmarkpurple rounded-md inline-flex items-center text-base pt-5'>
-                                        <span>Credmark Model Framework</span>
-                                    </div>
-                                </Link>
 
                             </div>
                         </div>

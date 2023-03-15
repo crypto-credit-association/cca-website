@@ -18,7 +18,7 @@ export default function Home({ data }) {
       <main>
         <Nav />
         <div className="bg-ccaLightBlue">
-          <div className="hidden md:flex flex-col items-center justify-center py-32 heroBg">
+          <div className="flex flex-col items-center justify-center py-32 heroBg">
             <h1 className="text-white text-center text-6xl justify-center font-bold pb-12">
               Crypto
               <br></br>

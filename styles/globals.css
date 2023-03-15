@@ -835,3 +835,9 @@ body #mc_embed_signup #mce-error-response {
   max-width: '1300px';
   margin: 'auto';
 }
+
+@media screen and (max-width: 800px) {
+  .heroBg {
+    background-size: auto;
+  }
+}

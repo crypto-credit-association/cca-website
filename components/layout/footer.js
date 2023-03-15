@@ -91,7 +91,7 @@ export default function Footer() {
                     <div className="mt-12 xl:mt-0">
                         <div className="grid grid-cols-1 lg:flex lg:space-x-10">
                             <div>
-                                <h4 className="text-xl font-light text-ccaBlue tracking-wider">Company</h4>
+                                <h4 className="text-xl font-light text-ccaBlue tracking-wider">Organization</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.company.map((item) => (
                                         <li className="list-none" key={item.name}>
@@ -118,7 +118,7 @@ export default function Footer() {
                             <div>
                                 <h4 className="text-xl font-light text-ccaBlue tracking-wider">About</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
-                                    {navigation.association.map((item) => (
+                                    {navigation.resources.map((item) => (
                                         <li className="list-none" key={item.name}>
                                             <a href={item.href} className="text-base text-ccaBlue">
                                                 {item.name}
