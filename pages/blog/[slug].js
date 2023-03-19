@@ -34,13 +34,13 @@ export default function BlogPostPage({ post }) {
             <Head>
                 <title key="title">{post.title} | Blog | Crypto Credit Association</title>
                 <meta name="description" content={post.description} />
-                <meta content={`${post.title} | Blog | Credmark`} property="og:title" key="og:title" />
-                <meta content={`${post.title} | Blog | Credmark`} name="twitter:title" key="twitter:title" />
+                <meta content={`${post.title} | Blog | Crypto Credit Association`} property="og:title" key="og:title" />
+                <meta content={`${post.title} | Blog | Crypto Credit Association`} name="twitter:title" key="twitter:title" />
                 <meta content={post.description} property="og:description" key="og:description" />
                 <meta property="og:image" content={post.mainImage} />
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:site" content="@credmarkhq" />
-                <meta name="twitter:title" content={`${post.title} | Blog | Credmark`} />
+                <meta name="twitter:site" content="@CC_Assoc" />
+                <meta name="twitter:title" content={`${post.title} | Blog | Crypto Credit Association`} />
                 <meta name="twitter:description" content={post.description} />
                 <meta name="twitter:image" content={post.mainImage} />
                 <meta content={post.mainImage} name="twitter:image" key="twitter:image" />
@@ -56,23 +56,6 @@ export default function BlogPostPage({ post }) {
                         <meta content={post.mainImage} name="twitter:image" key="twitter:image" />
                     </>
                 )}
-                {/* Global Site Tag (gtag.js) - Google Analytics */}
-                <script
-                    async
-                    src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-                />
-                <script
-                    dangerouslySetInnerHTML={{
-                        __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-              page_path: window.location.pathname,
-            });
-          `,
-                    }}
-                />
             </Head>
             <div className="nav">
                 <BlogDetail post={post} />
