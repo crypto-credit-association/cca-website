@@ -1,5 +1,7 @@
 Staging branch: https://staging--cca-staging.netlify.app/
 
+How to use CMS: https://docs.google.com/document/d/1zaKkVTOGdLi4U0qcezLT0d1ep_3B7G1g9XHSMtdH-f8/edit?usp=sharing
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
