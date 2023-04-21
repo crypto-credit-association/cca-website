@@ -40,8 +40,7 @@ function BoardMembersPage() {
                             img="/assets/darshain.png"
                             name="Darshan Vaidya"
                             title="Board Member"
-                            bio="Darshan is the founder of X-Margin, a Zero-Knowledge Cross Margin Solution for trading firms. His experience ranges from options trading in Cryptocurrency and strong programming skills."
-                            bioTwo="He is also the Founder of Well Fed Foundation - a food redistribution charity using technology." />
+                            bio="Darshan is co-founder of Credora, a technology firm that is leveraging privacy-preserving technology to build confidence in credit markets. Credora enables real-time credit analytics and powers transparent and efficient markets. Darshan's background is from derivatives trading and risk management, having worked for 12 years across investment banks and market making firms in traditional and crypto markets."
                     </div>
                 </div>
             </div>
