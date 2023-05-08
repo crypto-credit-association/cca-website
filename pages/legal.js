@@ -20,14 +20,13 @@ function Legal() {
                                 Statutes
                             </h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                The Crypto Credit Association is a not for profit member-run industry association, incorporated in Switzerland. Our <a href="/board-members" className="underline">board of directors</a> is elected by members in good standing.
                             </p>
-                            <h3 className="font-bold text-left pt-10 pb-5 text-3xl">
-                                Limitations
-                            </h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
+                            <p>You may download a copy of the CCA's Articles of Association <a
+                                href="/assets/pdf/cca-articles-of-association.pdf"
+                                download
+                                rel="noopener"
+                                className="underline">here</a>.</p>
                         </div>
                         <h2 className="pb-4 text-xl pt-10 lg:pt-20">Need help? Contact us at:</h2>
                         <p>
