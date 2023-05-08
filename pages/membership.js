@@ -40,8 +40,22 @@ function Membership() {
                   src="/assets/svg/blue-tick.svg"
                   alt="Tick icon"
                 /><p className="ml-6 pb-6 text-base mt-2">Inform and influence regulation.</p>
-
               </div>
+              <Link
+              href="/membership-benefits"
+            >
+              <button
+                type="button"
+                className="mt-16 items-center bg-ccaBlue px-10 inline-flex py-3 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white"
+              >
+                Membership benefits
+                <img
+                  className="ml-2"
+                  src="/assets/svg/arrow-white-no-border.svg"
+                  alt="Download icon"
+                />
+              </button>
+            </Link>
             </div>
 
             <p className="pb-6 text-xl font-semibold underline">CCA services:</p>
