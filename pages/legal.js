@@ -1,5 +1,6 @@
 import Nav from "../components/layout/nav";
 import Footer from "../components/layout/footer";
+import Link from "next/link";
 
 function Legal() {
     return (
@@ -20,9 +21,9 @@ function Legal() {
                                 Statutes
                             </h3>
                             <p>
-                                The Crypto Credit Association is a not for profit member-run industry association, incorporated in Switzerland. Our <a href="/board-members" className="underline">board of directors</a> is elected by members in good standing.
+                                The Crypto Credit Association is a not for profit member-run industry association, incorporated in Switzerland. Our <Link href="/board-members" className="underline">board of directors</Link> is elected by members in good standing.
                             </p>
-                            <p>You may download a copy of the CCA's Articles of Association <a
+                            <p>You may download a copy of the CCA&apos;s Articles of Association <a
                                 href="/assets/pdf/cca-articles-of-association.pdf"
                                 download
                                 rel="noopener"
