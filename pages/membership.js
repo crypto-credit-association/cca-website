@@ -96,14 +96,12 @@ function Membership() {
                 <h4 className="text-white text-2xl font-semibold underline">Enterprise Members</h4>
                 <p className="py-6 text-white italic">For large firms (over 1,000 employees) </p>
                 <p className="text-white">Membership Fee: <br />US$ 12,500/year</p>
-                <p className="text-white pt-3">Joining Fee:  <br />US$ 2,500</p>
+                <p className="text-white pt-3">Joining Fee:  <br />US$ 5,000</p>
               </div>
               <div className="bg-ccaBlue mt-10 h-full pt-12 pb-24 shadow-2xl mx-5 md:mx-2 md:mt-0 px-3">
                 <h4 className="text-white text-2xl font-semibold underline">Charter Members</h4>
                 <p className="py-6 text-white italic">For any firm</p>
                 <p className="text-white">Membership Fee: <br />US$ 22,500/year</p>
-                <p className="text-white pt-3">Joining fee: <br />US$ 5,000*</p>
-                <p className="py-6 font-semibold text-white">*Charter memberships will only be available until 1 June 2023. A Charter Member in good standing will always be recognized as such.</p>
               </div>
             </div>
             <div className="mt-10">
