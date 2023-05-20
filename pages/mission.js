@@ -19,9 +19,9 @@ function Mission() {
                         <h3 className="pb-6 text-3xl font-bold">Our Goals</h3>
                         <div className="border-b-2 border-gold w-48"></div>
                         <ul className="ml-5 md:ml-0 py-6 list-outside list-disc">
-                            <li>Define and publish standards.</li>
-                            <li>Establish audit and certification mechanisms for companies in the crypto credit space.</li>
-                            <li>Work with regulatory bodies to encourage these bodies to work together to ensure consistent rules.</li>
+                            <li>Define and publish norms, standards, and practices relevant to under-collateralized crypto lending.</li>
+                            <li>Establish audit and certification mechanisms.</li>
+                            <li>Encourage and inform sensible, actionable, and consistent regulation around the world.</li>
                         </ul>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2">
