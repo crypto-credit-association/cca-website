@@ -28,6 +28,11 @@ function Legal() {
                                 download
                                 rel="noopener"
                                 className="underline">here</a>.</p>
+                            <h3 className="font-bold text-left text-3xl pb-4 pt-10 lg:pt-20">
+                                GDPR Compliance
+                            </h3>
+                            <p>GDPR Compliance</p>
+                            <p>The CCA website does not use cookies, nor does it store any identifying data about visitors.</p>
                         </div>
                         <h2 className="pb-4 text-xl pt-10 lg:pt-20">Need help? Contact us at:</h2>
                         <p>
