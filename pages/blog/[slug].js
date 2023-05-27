@@ -8,10 +8,19 @@ import SyntaxHighlighter from 'react-syntax-highlighter';
 import Head from 'next/head'
 import Footer from '../../components/layout/footer'
 import React from 'react';
+import getYouTubeId from "get-youtube-id";
+import YouTube from "react-youtube";
 
 
 const serializers = {
     types: {
+        youtube: ({ node }) => {
+            const id = getYouTubeId(node?.url || "");
+            if (id) {
+              return <YouTube videoId={id} />;
+            }
+            return null;
+          },
         code: (props) => {
             return (
                 <div className="bg-black text-white p-7 rounded-md code">

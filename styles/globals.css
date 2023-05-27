@@ -160,6 +160,11 @@ h4 {
   word-wrap: break-word;
 }
 
+.sanity-block iframe {
+  margin: auto;
+  padding: 10px 0px;
+}
+
 .code {
   overflow-y: auto;
   word-wrap: break-word;
