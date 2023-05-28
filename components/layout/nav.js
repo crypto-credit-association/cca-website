@@ -43,6 +43,10 @@ const learn = [
         name: 'Reports',
         href: '/reports',
     },
+    {
+        name: 'Media',
+        href: '/media',
+    },
 ]
 
 
