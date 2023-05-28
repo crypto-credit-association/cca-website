@@ -24,7 +24,7 @@ function Media() {
         <div className="max-w-7xl m-auto py-6 md:py-12">
           <div className="mx-5">
             <div className="md:mx-12">
-              <h2 className="py-12 text-2xl font-bold text-ccaBlue">Here, you'll find all the latest updates, news, and educational content from the Crypto Credit Association.</h2>
+              <h2 className="py-12 text-2xl font-bold text-ccaBlue">Here, you&apos;ll find all the latest updates, news, and educational content from the Crypto Credit Association.</h2>
               <MediaCard />
             </div>
           </div>
