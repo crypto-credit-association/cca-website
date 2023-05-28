@@ -2,7 +2,7 @@ import Nav from "../components/layout/nav";
 import Footer from "../components/layout/footer";
 import Head from "next/head";
 
-function Media() {
+function MediaPage() {
   return (
     <>
       <Head>
