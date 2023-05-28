@@ -35,7 +35,7 @@ export default function MediaCard() {
                             Twitter
                         </a>
                     </h3>
-                    <p class="mt-2 text-sm text-gray-500">Here, you'll find all the latest updates, news, and educational content from the Crypto Credit Association. Stay informed and discover the world of crypto credit through our engaging videos and insightful tweets.</p>
+                    <p class="mt-2 text-sm text-gray-500">Here, you&apos;ll find all the latest updates, news, and educational content from the Crypto Credit Association. Stay informed and discover the world of crypto credit through our engaging videos and insightful tweets.</p>
                 </div>
                 <span class="pointer-events-none absolute right-6 top-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
                     <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
