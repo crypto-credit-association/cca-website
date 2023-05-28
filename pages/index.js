@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Subscribe from '../components/subscribe/subscribe'
 import Footer from '../components/layout/footer'
 import React from "react";
 import Nav from '../components/layout/nav'
