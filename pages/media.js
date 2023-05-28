@@ -1,7 +1,7 @@
 import Nav from "../components/layout/nav";
 import Footer from "../components/layout/footer";
-import MediaCard from "../components/media/mediaCard";
 import Head from "next/head";
+import MediaPanel from "../components/media/mediaCard";
 
 function Media() {
   return (
@@ -25,7 +25,7 @@ function Media() {
           <div className="mx-5">
             <div className="md:mx-12">
               <h2 className="py-12 text-2xl font-bold text-ccaBlue">Here, you&apos;ll find all the latest updates, news, and educational content from the Crypto Credit Association.</h2>
-              <MediaCard />
+              <MediaPanel />
             </div>
           </div>
         </div>
