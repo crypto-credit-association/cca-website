@@ -1,6 +1,7 @@
 import Nav from "../components/layout/nav";
 import Footer from "../components/layout/footer";
 import Link from "next/link";
+import MembershipBenefits from "./membership-benefits";
 
 
 function Membership() {
@@ -42,7 +43,7 @@ function Membership() {
                 /><p className="ml-6 pb-6 text-base mt-2">Inform and influence regulation.</p>
               </div>
               <Link
-              href="/membership-benefits"
+              href="#membership-benefits"
             >
               <button
                 type="button"
@@ -57,7 +58,6 @@ function Membership() {
               </button>
             </Link>
             </div>
-
             <p className="pb-6 text-xl font-semibold underline">CCA services:</p>
             <p className="pb-6">The CCA is a not-for-profit industry association dedicated to improving the robustness of the crypto-lending industry. CCA uses member fees and contributions to provide a number of services, including.</p>
             <ul className="ml-5 md:ml-0 list-outside list-disc px-5">
@@ -129,6 +129,7 @@ function Membership() {
             </Link>
             </div>
           </div>
+          <MembershipBenefits />
         </div>
       </div>
       <Footer />

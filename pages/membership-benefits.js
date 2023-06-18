@@ -6,16 +6,8 @@ import Link from "next/link";
 function MembershipBenefits() {
     return (
         <>
-            <Nav />
-            <div className="bg-ccaBlue">
-                <div className="flex flex-col w-full max-w-6xl m-auto">
-                    <h1 className="text-white font-bold py-40 px-5 lg:px-0 text-left">
-                        Membership Benefits
-                    </h1>
-                </div>
-            </div>
-            <div className="bg-gray">
-                <div className="py-12 lg:py-24max-w-7xl m-auto">
+            <div id="membership-benefits" className="bg-gray">
+                <div className="max-w-7xl m-auto">
                     <div className="mx-5 md:mx-12">
                         <h3 className="pb-6 text-3xl font-bold py-16 underline">Benefits</h3>
                         <div className="grid grid-cols-1 md:grid-cols-4">
@@ -77,7 +69,6 @@ function MembershipBenefits() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 }
