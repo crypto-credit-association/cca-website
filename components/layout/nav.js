@@ -40,7 +40,7 @@ const learn = [
         href: '/events',
     },
     {
-        name: 'Reports',
+        name: 'Publications',
         href: '/reports',
     },
     {
